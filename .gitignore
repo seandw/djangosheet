@@ -1,0 +1,8 @@
+*.egg-info
+dist/
+
+# Generated and processed Retrosheet files
+games-*.csv
+*.ROS
+*.EV?
+TEAM*

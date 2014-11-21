@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include djangosheet/data *
+recursive-include djangosheet/docs *
