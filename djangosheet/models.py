@@ -183,6 +183,17 @@ class Game(models.Model):
     forfeit_info = models.TextField(blank=True)
     protest_info = models.TextField(blank=True)
 
+    @property
+    def home(self):
+        return self.participatingteam_set.get(side='H')
+
+    @property
+    def away(self):
+        return self.participatingteam_set.get(side='A')
+
+    def ordered_teams(self):
+        return self.participatingteam_set.order_by('side')
+
 
 class ParticipatingTeam(models.Model):
     SIDES = (
@@ -202,12 +213,16 @@ class ParticipatingTeam(models.Model):
     left_on_base = models.IntegerField()
     line = models.TextField()
 
+    def line_as_list(self):
+        import re
+        return re.findall(r'((?<=\()\d+(?=\))|\d|x)', self.line)
+
     class Meta:
         unique_together = (('game', 'team'),)
 
 
 class Lineup(models.Model):
-    participating_team = models.ForeignKey(ParticipatingTeam)
+    participating_team = models.OneToOneField(ParticipatingTeam)
     team = models.ForeignKey(Team)
     date = models.DateField()
 
@@ -233,10 +248,11 @@ class LineupEntry(models.Model):
 
     class Meta:
         verbose_name_plural = 'lineup entries'
+        ordering = ['batting_position']
 
 
 class OffensiveStats(models.Model):
-    participating_team = models.ForeignKey(ParticipatingTeam)
+    participating_team = models.OneToOneField(ParticipatingTeam)
     at_bats = models.IntegerField()
     doubles = models.IntegerField()
     triples = models.IntegerField()
@@ -258,7 +274,7 @@ class OffensiveStats(models.Model):
 
 
 class DefensiveStats(models.Model):
-    participating_team = models.ForeignKey(ParticipatingTeam)
+    participating_team = models.OneToOneField(ParticipatingTeam)
     putouts = models.IntegerField()
     assists = models.IntegerField()
     passed_balls = models.IntegerField()
@@ -270,7 +286,7 @@ class DefensiveStats(models.Model):
 
 
 class PitchingStats(models.Model):
-    participating_team = models.ForeignKey(ParticipatingTeam)
+    participating_team = models.OneToOneField(ParticipatingTeam)
     pitchers = models.IntegerField()
     earned_runs = models.IntegerField()
     team_earned_runs = models.IntegerField()
