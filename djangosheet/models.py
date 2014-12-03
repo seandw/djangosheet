@@ -200,10 +200,15 @@ class ParticipatingTeam(models.Model):
         ('H', 'Home'),
         ('A', 'Away'),
     )
+    RESULTS = (
+        ('W', 'Win'),
+        ('L', 'Loss'),
+    )
 
     game = models.ForeignKey(Game)
     team = models.ForeignKey(Team)
     side = models.CharField(max_length=1, choices=SIDES)
+    result = models.CharField(max_length=1, blank=True, null=True, choices=RESULTS)
     starting_pitcher = models.ForeignKey(Player, related_name='starting_pitcher')
     last_pitcher = models.ForeignKey(Player, blank=True, null=True, related_name='last_pitcher')
 

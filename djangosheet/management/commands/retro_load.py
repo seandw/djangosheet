@@ -151,6 +151,12 @@ class Command(LabelCommand):
                                               'home_last_pitcher_id']:
                         if game[possible_empty_id] == '':
                             del game[possible_empty_id]
+                    if int(game['home_runs']) > int(game['away_runs']):
+                        game['home_result'] = 'W'
+                        game['away_result'] = 'L'
+                    elif int(game['home_runs']) < int(game['away_runs']):
+                        game['home_result'] = 'L'
+                        game['away_result'] = 'W'
                     game_info = {key: value for key, value in game.items()
                                  if not ha_pattern.match(key)}
                     game_object = Game(**game_info)
