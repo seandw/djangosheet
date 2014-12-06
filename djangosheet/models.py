@@ -14,7 +14,7 @@ class Team(models.Model):
         ('E', 'East'),
     )
 
-    current_franchise = models.CharField(max_length=3)
+    current_franchise = models.ForeignKey('self', null=True)
     franchise = models.CharField(max_length=3)
     league = models.CharField(max_length=2, choices=LEAGUES)
     division = models.CharField(max_length=1, blank=True, choices=DIVISIONS)

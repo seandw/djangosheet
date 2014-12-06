@@ -44,6 +44,7 @@ class Command(LabelCommand):
     def load_teams(self):
         self.stdout.write('Adding teams to database...')
 
+        current_franchises = dict()
         with open(os.path.join(DATA_DIR, TEAMS)) as teams_file:
             cols = ['current_franchise', 'franchise', 'league', 'division', 'location', 'name',
                     'nicknames', 'start', 'end', 'city', 'state']
@@ -56,7 +57,17 @@ class Command(LabelCommand):
                     row['end'] = year + '-' + month + '-' + day
                 else:
                     del row['end']
+                current_franchises.setdefault(row['current_franchise'], set()).add(row['franchise'])
+                del row['current_franchise']
                 Team(**row).save()
+
+        current_teams = dict()
+        for team in Team.objects.filter(end__isnull=True):
+            for franchise in current_franchises[team.franchise]:
+                current_teams[franchise] = team
+        for team in Team.objects.all():
+            team.current_franchise = current_teams[team.franchise]
+            team.save()
 
     @transaction.atomic
     def load_parks(self):
@@ -91,7 +102,10 @@ class Command(LabelCommand):
                 'position']
         teams = Team.get_by_year(year)
         path = os.path.join(DATA_DIR, ROSTER_MASK.format(year))
-        for roster in glob.glob(path):
+        files = glob.glob(path)
+        if len(files) == 0:
+            raise FileNotFoundError
+        for roster in files:
             with open(roster) as roster_file:
                 reader = csv.DictReader(roster_file, fieldnames=cols)
                 for player_dict in reader:
@@ -139,7 +153,10 @@ class Command(LabelCommand):
                 'home_ds_passed_balls', 'home_ds_double_plays', 'home_ds_triple_plays']
         ha_pattern = re.compile('(home|away)_')
         path = os.path.join(DATA_DIR, GAMES_MASK.format(year))
-        for games in glob.glob(path):
+        files = glob.glob(path)
+        if len(files) == 0:
+            raise FileNotFoundError
+        for games in files:
             with open(games) as games_file:
                 reader = csv.DictReader(games_file, fieldnames=cols)
                 for game in reader:
