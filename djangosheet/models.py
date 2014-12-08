@@ -227,7 +227,7 @@ class ParticipatingTeam(models.Model):
 
 
 class Lineup(models.Model):
-    participating_team = models.OneToOneField(ParticipatingTeam)
+    participating_team = models.OneToOneField(ParticipatingTeam, primary_key=True)
     team = models.ForeignKey(Team)
     date = models.DateField()
 
@@ -257,7 +257,7 @@ class LineupEntry(models.Model):
 
 
 class OffensiveStats(models.Model):
-    participating_team = models.OneToOneField(ParticipatingTeam)
+    participating_team = models.OneToOneField(ParticipatingTeam, primary_key=True)
     at_bats = models.IntegerField()
     doubles = models.IntegerField()
     triples = models.IntegerField()
@@ -279,7 +279,7 @@ class OffensiveStats(models.Model):
 
 
 class DefensiveStats(models.Model):
-    participating_team = models.OneToOneField(ParticipatingTeam)
+    participating_team = models.OneToOneField(ParticipatingTeam, primary_key=True)
     putouts = models.IntegerField()
     assists = models.IntegerField()
     passed_balls = models.IntegerField()
@@ -291,7 +291,7 @@ class DefensiveStats(models.Model):
 
 
 class PitchingStats(models.Model):
-    participating_team = models.OneToOneField(ParticipatingTeam)
+    participating_team = models.OneToOneField(ParticipatingTeam, primary_key=True)
     pitchers = models.IntegerField()
     earned_runs = models.IntegerField()
     team_earned_runs = models.IntegerField()
