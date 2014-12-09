@@ -32,13 +32,9 @@ class Command(LabelCommand):
             self.stderr.write('No people in database, must add them first.')
             self.load_people()
 
-        try:
-            self.stdout.write('Processing year {0}...'.format(year))
-            self.load_players(year)
-            self.load_games(year)
-        except FileNotFoundError:
-            raise CommandError('No data for the year {0}. '.format(year) +
-                               'You must first download it with retro_dl')
+        self.stdout.write('Processing year {0}...'.format(year))
+        self.load_players(year)
+        self.load_games(year)
 
     @transaction.atomic
     def load_teams(self):
@@ -104,18 +100,17 @@ class Command(LabelCommand):
         path = os.path.join(DATA_DIR, ROSTER_MASK.format(year))
         files = glob.glob(path)
         if len(files) == 0:
-            raise FileNotFoundError
+            raise CommandError('No roster data for the year {0}. '.format(year) +
+                               'You must first download it with retro_dl')
         for roster in files:
             with open(roster) as roster_file:
                 reader = csv.DictReader(roster_file, fieldnames=cols)
                 for player_dict in reader:
-                    del player_dict['last_name']
-                    del player_dict['first_name']
-                    player_dict['year'] = year
-                    player_dict['player_id'] = player_dict['id']
-                    del player_dict['id']
-                    player_dict['team'] = teams.get(franchise=player_dict['team'])
-                    PlayerTeam.objects.get_or_create(**player_dict)
+                    PlayerTeam.objects.update_or_create(year=year, player_id=player_dict['id'],
+                                                        team=teams.get(franchise=player_dict['team']),
+                                                        defaults={'position': player_dict['position'],
+                                                                  'batting_hand': player_dict['batting_hand'],
+                                                                  'throwing_hand': player_dict['throwing_hand']})
 
     @transaction.atomic
     def load_games(self, year):
@@ -153,55 +148,64 @@ class Command(LabelCommand):
                 'home_ds_passed_balls', 'home_ds_double_plays', 'home_ds_triple_plays']
         ha_pattern = re.compile('(home|away)_')
         path = os.path.join(DATA_DIR, GAMES_MASK.format(year))
-        files = glob.glob(path)
-        if len(files) == 0:
-            raise FileNotFoundError
-        for games in files:
-            with open(games) as games_file:
-                reader = csv.DictReader(games_file, fieldnames=cols)
-                for game in reader:
-                    date = game['date']
-                    game['date'] = date[:4] + '-' + date[4:6] + '-' + date[6:]
-                    # Ties, complete games, or games without saves have invalid IDs in these fields
-                    for possible_empty_id in ['save_pitcher_id', 'winning_pitcher_id',
-                                              'losing_pitcher_id', 'away_last_pitcher_id',
-                                              'home_last_pitcher_id']:
-                        if game[possible_empty_id] == '':
-                            del game[possible_empty_id]
-                    if int(game['home_runs']) > int(game['away_runs']):
-                        game['home_result'] = 'W'
-                        game['away_result'] = 'L'
-                    elif int(game['home_runs']) < int(game['away_runs']):
-                        game['home_result'] = 'L'
-                        game['away_result'] = 'W'
-                    game_info = {key: value for key, value in game.items()
-                                 if not ha_pattern.match(key)}
-                    game_object = Game(**game_info)
-                    game_object.save()
-                    self.generate_team_stats(game_object, game, 'home_')
-                    self.generate_team_stats(game_object, game, 'away_')
+        if not os.path.isfile(path):
+            raise CommandError('No games data for the year {0}. '.format(year) +
+                               'You must first process it with retro_process')
+        with open(path) as games_file:
+            reader = csv.DictReader(games_file, fieldnames=cols)
+            for game in reader:
+                game_id = game['id']
+                del game['id']
+                date = game['date']
+                game['date'] = date[:4] + '-' + date[4:6] + '-' + date[6:]
+                # Ties, complete games, or games without saves have invalid IDs in these fields
+                for possible_empty_id in ['save_pitcher_id', 'winning_pitcher_id',
+                                          'losing_pitcher_id', 'away_last_pitcher_id',
+                                          'home_last_pitcher_id']:
+                    if game[possible_empty_id] == '':
+                        del game[possible_empty_id]
+                if int(game['home_runs']) > int(game['away_runs']):
+                    game['home_result'] = 'W'
+                    game['away_result'] = 'L'
+                elif int(game['home_runs']) < int(game['away_runs']):
+                    game['home_result'] = 'L'
+                    game['away_result'] = 'W'
+                game_info = {key: value for key, value in game.items()
+                             if not ha_pattern.match(key)}
+                game_object, _ = Game.objects.update_or_create(id=game_id, defaults=game_info)
+                self.generate_team_stats(game_object, game, 'home_')
+                self.generate_team_stats(game_object, game, 'away_')
+
 
     @staticmethod
     def generate_team_stats(game_object, game_dict, prefix):
         game_info = {key[5:]: value for key, value in game_dict.items() if key.startswith(prefix)}
         pt_pattern = re.compile('([dop]s|lineup)_')
         pt_info = {key: value for key, value in game_info.items() if not pt_pattern.match(key)}
-        pt_info['game'] = game_object
         pt_info['team'] = Team.get_by_year(game_dict['date'][:4]).get(franchise=pt_info['team'])
         pt_info['side'] = 'H' if prefix == 'home_' else 'A'
-        pt = ParticipatingTeam(**pt_info)
-        pt.save()
+        pt, _ = ParticipatingTeam.objects.update_or_create(game=game_object, defaults=pt_info)
 
-        lineup = Lineup(participating_team=pt, team=pt_info['team'], date=game_dict['date'])
-        lineup.save()
+        lineup, created = Lineup.objects.get_or_create(participating_team=pt,
+                                                       defaults={'team': pt_info['team'],
+                                                                 'date': game_dict['date']})
+        if not created:
+            LineupEntry.objects.filter(lineup=lineup).delete()
+
         for position in range(1, 10):
             key = 'lineup_{0}'.format(position)
             LineupEntry(lineup=lineup, player_id=game_info[key], batting_position=position,
                         defensive_position=game_info[key + '_pos']).save()
 
-        OffensiveStats(participating_team=pt, **{key[3:]: value for key, value in game_info.items()
-                                                 if key.startswith('os_')}).save()
-        DefensiveStats(participating_team=pt, **{key[3:]: value for key, value in game_info.items()
-                                                 if key.startswith('ds_')}).save()
-        PitchingStats(participating_team=pt, **{key[3:]: value for key, value in game_info.items()
-                                                if key.startswith('ps_')}).save()
+        OffensiveStats.objects.update_or_create(participating_team=pt,
+                                                defaults={key[3:]: value
+                                                          for key, value in game_info.items()
+                                                          if key.startswith('os_')})
+        DefensiveStats.objects.update_or_create(participating_team=pt,
+                                                defaults={key[3:]: value
+                                                          for key, value in game_info.items()
+                                                          if key.startswith('ds_')})
+        PitchingStats.objects.update_or_create(participating_team=pt,
+                                               defaults={key[3:]: value
+                                                         for key, value in game_info.items()
+                                                         if key.startswith('ps_')})
