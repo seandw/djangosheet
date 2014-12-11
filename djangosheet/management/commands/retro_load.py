@@ -182,12 +182,14 @@ class Command(LabelCommand):
         game_info = {key[5:]: value for key, value in game_dict.items() if key.startswith(prefix)}
         pt_pattern = re.compile('([dop]s|lineup)_')
         pt_info = {key: value for key, value in game_info.items() if not pt_pattern.match(key)}
-        pt_info['team'] = Team.get_by_year(game_dict['date'][:4]).get(franchise=pt_info['team'])
+        team = Team.get_by_year(game_dict['date'][:4]).get(franchise=pt_info['team'])
+        del pt_info['team']
         pt_info['side'] = 'H' if prefix == 'home_' else 'A'
-        pt, _ = ParticipatingTeam.objects.update_or_create(game=game_object, defaults=pt_info)
+        pt, _ = ParticipatingTeam.objects.update_or_create(game=game_object, team=team,
+                                                           defaults=pt_info)
 
         lineup, created = Lineup.objects.get_or_create(participating_team=pt,
-                                                       defaults={'team': pt_info['team'],
+                                                       defaults={'team': team,
                                                                  'date': game_dict['date']})
         if not created:
             LineupEntry.objects.filter(lineup=lineup).delete()
