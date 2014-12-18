@@ -14,8 +14,8 @@ tools may vary.
 Quick start
 -----------
 
-Add the app to your settings, migrate the models, and load to your
-heart's content.
+Add the app to your settings, migrate the models, load the park and
+team fixtures, and load to your heart's content.
 
 Todo
 ----

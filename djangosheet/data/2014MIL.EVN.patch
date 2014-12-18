@@ -1,0 +1,11 @@
+--- ../../../../Downloads/2014eve/2014MIL.EVN	2014-11-08 20:01:44.000000000 -0800
++++ 2014MIL.EVN	2014-12-17 17:37:09.000000000 -0800
+@@ -9505,7 +9505,7 @@
+ play,4,0,gordd002,21,BBCX,64(1)/FO/G
+ play,4,1,braur002,10,BX,S8/G
+ play,4,1,ramia001,02,SCFB,WP.1-2
+-play,4,1,ramia001,12,SCFB.*B,OA/MREV.2X3(25)
++play,4,1,ramia001,12,SCFB.*B,OA/REV.2X3(25)
+ com,"replay,4,ramia001,MIL,westj901,MIL06,,Y,M,LAN,A"
+ com,"$Ryan Braun tried to advance on a pitch that got away"
+ com,"from the catcher and was called safe; Dodgers manager"

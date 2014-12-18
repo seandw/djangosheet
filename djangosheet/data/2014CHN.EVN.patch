@@ -1,0 +1,11 @@
+--- ../../../../Downloads/2014eve/2014CHN.EVN	2014-11-26 14:12:12.000000000 -0800
++++ 2014CHN.EVN	2014-12-17 17:32:49.000000000 -0800
+@@ -6616,7 +6616,7 @@
+ play,8,1,sweer001,31,CBBBB,W.3-H;2-3;1-2
+ play,8,1,bakej002,00,,NP
+ sub,waldj001,"Jordan Walden",0,9,1
+-play,8,1,bakej002,11,.FB*B,OA/MREV.3XH(21)
++play,8,1,bakej002,11,.FB*B,OA/REV.3XH(21)
+ com,"replay,8,bakej002,CHN,kellj901,CHI11,,N,M,CHN,A"
+ com,"$when Starlin Castro was called out at HP, Cubs manager"
+ com,"Rick Renteria challenged the ruling; the call was upheld"

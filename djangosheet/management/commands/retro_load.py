@@ -5,14 +5,11 @@ import os
 
 from django.core.management.base import LabelCommand, CommandError
 from django.db import transaction
-from djangosheet.models import Team, Park, Player, PlayerTeam, Game, ParticipatingTeam, Lineup, \
+from djangosheet.models import Team, Player, PlayerTeam, Game, ParticipatingTeam, Lineup,\
     LineupEntry, OffensiveStats, DefensiveStats, PitchingStats
 
 
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../data'))
-PARKS = 'parks.csv'
-TEAMS = 'teams.csv'
-PEOPLE = 'people.csv'
 ROSTER_MASK = '*{0}.ROS'
 GAMES_MASK = 'games-{0}.csv'
 
@@ -22,81 +19,17 @@ class Command(LabelCommand):
     help = 'Loads Retrosheet data for the specified years into the database'
 
     def handle_label(self, year, **options):
-        if Team.objects.count() == 0:
-            self.stderr.write('No teams in database, must add them first.')
-            self.load_teams()
-        if Park.objects.count() == 0:
-            self.stderr.write('No parks in database, must add them first.')
-            self.load_parks()
-        if Player.objects.count() == 0:
-            self.stderr.write('No people in database, must add them first.')
-            self.load_people()
+        self.teams = Team.get_by_year(year)
 
         self.stdout.write('Processing year {0}...'.format(year))
         self.load_players(year)
         self.load_games(year)
 
     @transaction.atomic
-    def load_teams(self):
-        self.stdout.write('Adding teams to database...')
-
-        current_franchises = dict()
-        with open(os.path.join(DATA_DIR, TEAMS)) as teams_file:
-            cols = ['current_franchise', 'franchise', 'league', 'division', 'location', 'name',
-                    'nicknames', 'start', 'end', 'city', 'state']
-            reader = csv.DictReader(teams_file, fieldnames=cols)
-            for row in reader:
-                month, day, year = re.findall(r'\d+', row['start'])
-                row['start'] = year + '-' + month + '-' + day
-                if row['end'] != '':
-                    month, day, year = re.findall(r'\d+', row['end'])
-                    row['end'] = year + '-' + month + '-' + day
-                else:
-                    del row['end']
-                current_franchises.setdefault(row['current_franchise'], set()).add(row['franchise'])
-                del row['current_franchise']
-                Team(**row).save()
-
-        current_teams = dict()
-        for team in Team.objects.filter(end__isnull=True):
-            for franchise in current_franchises[team.franchise]:
-                current_teams[franchise] = team
-        for team in Team.objects.all():
-            team.current_franchise = current_teams[team.franchise]
-            team.save()
-
-    @transaction.atomic
-    def load_parks(self):
-        self.stdout.write('Adding parks to database...')
-        with open(os.path.join(DATA_DIR, PARKS)) as parks_file:
-            reader = csv.DictReader(parks_file)
-            for row in reader:
-                month, day, year = re.findall(r'\d+', row['start'])
-                row['start'] = year + '-' + month + '-' + day
-                if row['end'] != '':
-                    month, day, year = re.findall(r'\d+', row['end'])
-                    row['end'] = year + '-' + month + '-' + day
-                else:
-                    del row['end']
-                Park(**row).save()
-
-    @transaction.atomic
-    def load_people(self):
-        self.stdout.write('Adding people to database...')
-        with open(os.path.join(DATA_DIR, PEOPLE)) as people_file:
-            # File includes umpires, managers. At some point, this should be differentiated.
-            reader = csv.DictReader(people_file)
-            for row in reader:
-                month, day, year = re.findall(r'\d+', row['debut'])
-                row['debut'] = year + '-' + month + '-' + day
-                Player(**row).save()
-
-    @transaction.atomic
     def load_players(self, year):
         self.stdout.write('Processing players...')
         cols = ['id', 'last_name', 'first_name', 'batting_hand', 'throwing_hand', 'team',
                 'position']
-        teams = Team.get_by_year(year)
         path = os.path.join(DATA_DIR, ROSTER_MASK.format(year))
         files = glob.glob(path)
         if len(files) == 0:
@@ -106,8 +39,11 @@ class Command(LabelCommand):
             with open(roster) as roster_file:
                 reader = csv.DictReader(roster_file, fieldnames=cols)
                 for player_dict in reader:
-                    PlayerTeam.objects.update_or_create(year=year, player_id=player_dict['id'],
-                                                        team=teams.get(franchise=player_dict['team']),
+                    player, _ = Player.objects.get_or_create(id=player_dict['id'],
+                                                             defaults={'last_name': player_dict['last_name'],
+                                                                       'first_name': player_dict['first_name']})
+                    PlayerTeam.objects.update_or_create(year=year, player=player,
+                                                        team=self.teams[player_dict['team']],
                                                         defaults={'position': player_dict['position'],
                                                                   'batting_hand': player_dict['batting_hand'],
                                                                   'throwing_hand': player_dict['throwing_hand']})
@@ -176,13 +112,11 @@ class Command(LabelCommand):
                 self.generate_team_stats(game_object, game, 'home_')
                 self.generate_team_stats(game_object, game, 'away_')
 
-
-    @staticmethod
-    def generate_team_stats(game_object, game_dict, prefix):
+    def generate_team_stats(self, game_object, game_dict, prefix):
         game_info = {key[5:]: value for key, value in game_dict.items() if key.startswith(prefix)}
         pt_pattern = re.compile('([dop]s|lineup)_')
         pt_info = {key: value for key, value in game_info.items() if not pt_pattern.match(key)}
-        team = Team.get_by_year(game_dict['date'][:4]).get(franchise=pt_info['team'])
+        team = self.teams[pt_info['team']]
         del pt_info['team']
         pt_info['side'] = 'H' if prefix == 'home_' else 'A'
         pt, _ = ParticipatingTeam.objects.update_or_create(game=game_object, team=team,

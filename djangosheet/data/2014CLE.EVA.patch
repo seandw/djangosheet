@@ -1,0 +1,20 @@
+--- ../../../../Downloads/2014eve/2014CLE.EVA	2014-11-25 07:15:32.000000000 -0800
++++ 2014CLE.EVA	2014-12-17 17:33:44.000000000 -0800
+@@ -2512,7 +2512,7 @@
+ play,7,0,pintj001,00,X,D7/L
+ play,7,0,herrc001,00,,NP
+ sub,santd001,"Danny Santana",0,7,12
+-play,7,0,herrc001,32,.BFBS+2FBB,W/MREV
++play,7,0,herrc001,32,.BFBS+2FBB,W/REV
+ com,"replay,7,herrc001,MIN,onorb901,CLE08,,N,M,CLE,A"
+ com,"$when Danny Santana was called safe at 2B on a pickoff attempt,"
+ com,"Indians manager Terry Francona challenged the ruling; it was"
+@@ -9977,7 +9977,7 @@
+ play,6,1,holtt001,12,TCBFFX,8/F
+ play,6,1,waltz001,01,CX,53/G
+ play,6,1,avilm001,22,CFFBBS,K
+-play,7,0,corpc001,32,SCBBFBFFB,W/UREV
++play,7,0,corpc001,32,SCBBFBFFB,W/REV
+ com,"replay,7,corpc001,HOU,cedeg901,CLE08,F,N,U,,H"
+ com,"$Carlos Corporan's fly to RF was ruled a foul ball;"
+ com,"crew chief Gary Cederstrom requested a review, which"

@@ -1,0 +1,2093 @@
+[
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1961-04-11",
+    "city": "Los Angeles",
+    "location": "Los Angeles",
+    "franchise": "LAA",
+    "current_franchise": 5,
+    "league": "AL",
+    "name": "Angels",
+    "nicknames": "",
+    "state": "CA",
+    "end": "1965-09-01",
+    "division": ""
+  },
+  "pk": 1
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1965-09-02",
+    "city": "Anaheim",
+    "location": "California",
+    "franchise": "CAL",
+    "current_franchise": 5,
+    "league": "AL",
+    "name": "Angels",
+    "nicknames": "",
+    "state": "CA",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 2
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Anaheim",
+    "location": "California",
+    "franchise": "CAL",
+    "current_franchise": 5,
+    "league": "AL",
+    "name": "Angels",
+    "nicknames": "",
+    "state": "CA",
+    "end": "1996-09-29",
+    "division": "W"
+  },
+  "pk": 3
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1997-04-02",
+    "city": "Anaheim",
+    "location": "Anaheim",
+    "franchise": "ANA",
+    "current_franchise": 5,
+    "league": "AL",
+    "name": "Angels",
+    "nicknames": "",
+    "state": "CA",
+    "end": "2004-10-03",
+    "division": "W"
+  },
+  "pk": 4
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "2005-04-05",
+    "city": "Anaheim",
+    "location": "Los Angeles",
+    "franchise": "ANA",
+    "current_franchise": 5,
+    "league": "AL",
+    "name": "Angels",
+    "nicknames": "",
+    "state": "CA",
+    "end": null,
+    "division": "W"
+  },
+  "pk": 5
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1998-03-31",
+    "city": "Phoenix",
+    "location": "Arizona",
+    "franchise": "ARI",
+    "current_franchise": 6,
+    "league": "NL",
+    "name": "Diamondbacks",
+    "nicknames": "",
+    "state": "AZ",
+    "end": null,
+    "division": "W"
+  },
+  "pk": 6
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1871-05-05",
+    "city": "Boston",
+    "location": "Boston",
+    "franchise": "BS1",
+    "current_franchise": 18,
+    "league": "NA",
+    "name": "Red Stockings",
+    "nicknames": "",
+    "state": "MA",
+    "end": "1875-10-30",
+    "division": ""
+  },
+  "pk": 7
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1876-04-22",
+    "city": "Boston",
+    "location": "Boston",
+    "franchise": "BSN",
+    "current_franchise": 18,
+    "league": "NL",
+    "name": "Red Caps",
+    "nicknames": "",
+    "state": "MA",
+    "end": "1882-10-02",
+    "division": ""
+  },
+  "pk": 8
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1883-05-01",
+    "city": "Boston",
+    "location": "Boston",
+    "franchise": "BSN",
+    "current_franchise": 18,
+    "league": "NL",
+    "name": "Beaneaters",
+    "nicknames": "",
+    "state": "MA",
+    "end": "1906-10-05",
+    "division": ""
+  },
+  "pk": 9
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1907-04-15",
+    "city": "Boston",
+    "location": "Boston",
+    "franchise": "BSN",
+    "current_franchise": 18,
+    "league": "NL",
+    "name": "Doves",
+    "nicknames": "",
+    "state": "MA",
+    "end": "1910-10-12",
+    "division": ""
+  },
+  "pk": 10
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1911-04-12",
+    "city": "Boston",
+    "location": "Boston",
+    "franchise": "BSN",
+    "current_franchise": 18,
+    "league": "NL",
+    "name": "Rustlers",
+    "nicknames": "Heps",
+    "state": "MA",
+    "end": "1911-10-09",
+    "division": ""
+  },
+  "pk": 11
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1912-04-11",
+    "city": "Boston",
+    "location": "Boston",
+    "franchise": "BSN",
+    "current_franchise": 18,
+    "league": "NL",
+    "name": "Braves",
+    "nicknames": "",
+    "state": "MA",
+    "end": "1935-09-29",
+    "division": ""
+  },
+  "pk": 12
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1936-04-14",
+    "city": "Boston",
+    "location": "Boston",
+    "franchise": "BSN",
+    "current_franchise": 18,
+    "league": "NL",
+    "name": "Bees",
+    "nicknames": "",
+    "state": "MA",
+    "end": "1940-09-29",
+    "division": ""
+  },
+  "pk": 13
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1941-04-15",
+    "city": "Boston",
+    "location": "Boston",
+    "franchise": "BSN",
+    "current_franchise": 18,
+    "league": "NL",
+    "name": "Braves",
+    "nicknames": "",
+    "state": "MA",
+    "end": "1952-09-28",
+    "division": ""
+  },
+  "pk": 14
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1953-04-13",
+    "city": "Milwaukee",
+    "location": "Milwaukee",
+    "franchise": "MLN",
+    "current_franchise": 18,
+    "league": "NL",
+    "name": "Braves",
+    "nicknames": "",
+    "state": "WI",
+    "end": "1965-10-03",
+    "division": ""
+  },
+  "pk": 15
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1966-04-12",
+    "city": "Atlanta",
+    "location": "Atlanta",
+    "franchise": "ATL",
+    "current_franchise": 18,
+    "league": "NL",
+    "name": "Braves",
+    "nicknames": "",
+    "state": "GA",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 16
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-07",
+    "city": "Atlanta",
+    "location": "Atlanta",
+    "franchise": "ATL",
+    "current_franchise": 18,
+    "league": "NL",
+    "name": "Braves",
+    "nicknames": "",
+    "state": "GA",
+    "end": "1993-10-03",
+    "division": "W"
+  },
+  "pk": 17
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1994-04-04",
+    "city": "Atlanta",
+    "location": "Atlanta",
+    "franchise": "ATL",
+    "current_franchise": 18,
+    "league": "NL",
+    "name": "Braves",
+    "nicknames": "",
+    "state": "GA",
+    "end": null,
+    "division": "E"
+  },
+  "pk": 18
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1901-04-25",
+    "city": "Milwaukee",
+    "location": "Milwaukee",
+    "franchise": "MLA",
+    "current_franchise": 22,
+    "league": "AL",
+    "name": "Brewers",
+    "nicknames": "",
+    "state": "WI",
+    "end": "1901-09-28",
+    "division": ""
+  },
+  "pk": 19
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1902-04-23",
+    "city": "St. Louis",
+    "location": "St. Louis",
+    "franchise": "SLA",
+    "current_franchise": 22,
+    "league": "AL",
+    "name": "Browns",
+    "nicknames": "",
+    "state": "MO",
+    "end": "1953-09-27",
+    "division": ""
+  },
+  "pk": 20
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1954-04-13",
+    "city": "Baltimore",
+    "location": "Baltimore",
+    "franchise": "BAL",
+    "current_franchise": 22,
+    "league": "AL",
+    "name": "Orioles",
+    "nicknames": "",
+    "state": "MD",
+    "end": "1968-09-27",
+    "division": ""
+  },
+  "pk": 21
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Baltimore",
+    "location": "Baltimore",
+    "franchise": "BAL",
+    "current_franchise": 22,
+    "league": "AL",
+    "name": "Orioles",
+    "nicknames": "",
+    "state": "MD",
+    "end": null,
+    "division": "E"
+  },
+  "pk": 22
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1901-04-26",
+    "city": "Boston",
+    "location": "Boston",
+    "franchise": "BOS",
+    "current_franchise": 25,
+    "league": "AL",
+    "name": "Americans",
+    "nicknames": "Somersets",
+    "state": "MA",
+    "end": "1907-10-05",
+    "division": ""
+  },
+  "pk": 23
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1908-04-14",
+    "city": "Boston",
+    "location": "Boston",
+    "franchise": "BOS",
+    "current_franchise": 25,
+    "league": "AL",
+    "name": "Red Sox",
+    "nicknames": "",
+    "state": "MA",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 24
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Boston",
+    "location": "Boston",
+    "franchise": "BOS",
+    "current_franchise": 25,
+    "league": "AL",
+    "name": "Red Sox",
+    "nicknames": "",
+    "state": "MA",
+    "end": null,
+    "division": "E"
+  },
+  "pk": 25
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1901-04-24",
+    "city": "Chicago",
+    "location": "Chicago",
+    "franchise": "CHA",
+    "current_franchise": 28,
+    "league": "AL",
+    "name": "White Sox",
+    "nicknames": "",
+    "state": "IL",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 26
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Chicago",
+    "location": "Chicago",
+    "franchise": "CHA",
+    "current_franchise": 28,
+    "league": "AL",
+    "name": "White Sox",
+    "nicknames": "",
+    "state": "IL",
+    "end": "1993-10-03",
+    "division": "W"
+  },
+  "pk": 27
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1994-04-04",
+    "city": "Chicago",
+    "location": "Chicago",
+    "franchise": "CHA",
+    "current_franchise": 28,
+    "league": "AL",
+    "name": "White Sox",
+    "nicknames": "",
+    "state": "IL",
+    "end": null,
+    "division": "C"
+  },
+  "pk": 28
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1871-05-08",
+    "city": "Chicago",
+    "location": "Chicago",
+    "franchise": "CH1",
+    "current_franchise": 36,
+    "league": "NA",
+    "name": "White Stockings",
+    "nicknames": "",
+    "state": "IL",
+    "end": "1871-10-30",
+    "division": ""
+  },
+  "pk": 29
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1874-05-13",
+    "city": "Chicago",
+    "location": "Chicago",
+    "franchise": "CH2",
+    "current_franchise": 36,
+    "league": "NA",
+    "name": "White Stockings",
+    "nicknames": "",
+    "state": "IL",
+    "end": "1875-10-27",
+    "division": ""
+  },
+  "pk": 30
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1876-04-25",
+    "city": "Chicago",
+    "location": "Chicago",
+    "franchise": "CHN",
+    "current_franchise": 36,
+    "league": "NL",
+    "name": "White Stockings",
+    "nicknames": "",
+    "state": "IL",
+    "end": "1889-10-05",
+    "division": ""
+  },
+  "pk": 31
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1890-04-19",
+    "city": "Chicago",
+    "location": "Chicago",
+    "franchise": "CHN",
+    "current_franchise": 36,
+    "league": "NL",
+    "name": "Colts",
+    "nicknames": "",
+    "state": "IL",
+    "end": "1897-10-03",
+    "division": ""
+  },
+  "pk": 32
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1898-04-15",
+    "city": "Chicago",
+    "location": "Chicago",
+    "franchise": "CHN",
+    "current_franchise": 36,
+    "league": "NL",
+    "name": "Orphans",
+    "nicknames": "",
+    "state": "IL",
+    "end": "1902-10-05",
+    "division": ""
+  },
+  "pk": 33
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1903-04-16",
+    "city": "Chicago",
+    "location": "Chicago",
+    "franchise": "CHN",
+    "current_franchise": 36,
+    "league": "NL",
+    "name": "Cubs",
+    "nicknames": "",
+    "state": "IL",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 34
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Chicago",
+    "location": "Chicago",
+    "franchise": "CHN",
+    "current_franchise": 36,
+    "league": "NL",
+    "name": "Cubs",
+    "nicknames": "",
+    "state": "IL",
+    "end": "1993-10-03",
+    "division": "E"
+  },
+  "pk": 35
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1994-04-04",
+    "city": "Chicago",
+    "location": "Chicago",
+    "franchise": "CHN",
+    "current_franchise": 36,
+    "league": "NL",
+    "name": "Cubs",
+    "nicknames": "",
+    "state": "IL",
+    "end": null,
+    "division": "C"
+  },
+  "pk": 36
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1882-05-02",
+    "city": "Cincinnati",
+    "location": "Cincinnati",
+    "franchise": "CN2",
+    "current_franchise": 42,
+    "league": "AA",
+    "name": "Red Stockings",
+    "nicknames": "",
+    "state": "OH",
+    "end": "1889-10-15",
+    "division": ""
+  },
+  "pk": 37
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1890-04-19",
+    "city": "Cincinnati",
+    "location": "Cincinnati",
+    "franchise": "CIN",
+    "current_franchise": 42,
+    "league": "NL",
+    "name": "Reds",
+    "nicknames": "",
+    "state": "OH",
+    "end": "1953-09-27",
+    "division": ""
+  },
+  "pk": 38
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1954-04-13",
+    "city": "Cincinnati",
+    "location": "Cincinnati",
+    "franchise": "CIN",
+    "current_franchise": 42,
+    "league": "NL",
+    "name": "Redlegs",
+    "nicknames": "",
+    "state": "OH",
+    "end": "1959-06-27",
+    "division": ""
+  },
+  "pk": 39
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1960-04-12",
+    "city": "Cincinnati",
+    "location": "Cincinnati",
+    "franchise": "CIN",
+    "current_franchise": 42,
+    "league": "NL",
+    "name": "Reds",
+    "nicknames": "",
+    "state": "OH",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 40
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-07",
+    "city": "Cincinnati",
+    "location": "Cincinnati",
+    "franchise": "CIN",
+    "current_franchise": 42,
+    "league": "NL",
+    "name": "Reds",
+    "nicknames": "",
+    "state": "OH",
+    "end": "1993-10-03",
+    "division": "W"
+  },
+  "pk": 41
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1994-04-03",
+    "city": "Cincinnati",
+    "location": "Cincinnati",
+    "franchise": "CIN",
+    "current_franchise": 42,
+    "league": "NL",
+    "name": "Reds",
+    "nicknames": "",
+    "state": "OH",
+    "end": null,
+    "division": "C"
+  },
+  "pk": 42
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1901-04-24",
+    "city": "Cleveland",
+    "location": "Cleveland",
+    "franchise": "CLE",
+    "current_franchise": 48,
+    "league": "AL",
+    "name": "Blues",
+    "nicknames": "",
+    "state": "OH",
+    "end": "1901-09-28",
+    "division": ""
+  },
+  "pk": 43
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1902-04-23",
+    "city": "Cleveland",
+    "location": "Cleveland",
+    "franchise": "CLE",
+    "current_franchise": 48,
+    "league": "AL",
+    "name": "Broncos",
+    "nicknames": "",
+    "state": "OH",
+    "end": "1902-09-27",
+    "division": ""
+  },
+  "pk": 44
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1903-04-22",
+    "city": "Cleveland",
+    "location": "Cleveland",
+    "franchise": "CLE",
+    "current_franchise": 48,
+    "league": "AL",
+    "name": "Naps",
+    "nicknames": "",
+    "state": "OH",
+    "end": "1914-10-04",
+    "division": ""
+  },
+  "pk": 45
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1915-04-14",
+    "city": "Cleveland",
+    "location": "Cleveland",
+    "franchise": "CLE",
+    "current_franchise": 48,
+    "league": "AL",
+    "name": "Indians",
+    "nicknames": "",
+    "state": "OH",
+    "end": "1968-09-27",
+    "division": ""
+  },
+  "pk": 46
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Cleveland",
+    "location": "Cleveland",
+    "franchise": "CLE",
+    "current_franchise": 48,
+    "league": "AL",
+    "name": "Indians",
+    "nicknames": "",
+    "state": "OH",
+    "end": "1993-10-03",
+    "division": "E"
+  },
+  "pk": 47
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1994-04-04",
+    "city": "Cleveland",
+    "location": "Cleveland",
+    "franchise": "CLE",
+    "current_franchise": 48,
+    "league": "AL",
+    "name": "Indians",
+    "nicknames": "",
+    "state": "OH",
+    "end": null,
+    "division": "C"
+  },
+  "pk": 48
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1993-04-05",
+    "city": "Denver",
+    "location": "Colorado",
+    "franchise": "COL",
+    "current_franchise": 49,
+    "league": "NL",
+    "name": "Rockies",
+    "nicknames": "",
+    "state": "CO",
+    "end": null,
+    "division": "W"
+  },
+  "pk": 49
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1901-04-25",
+    "city": "Detroit",
+    "location": "Detroit",
+    "franchise": "DET",
+    "current_franchise": 52,
+    "league": "AL",
+    "name": "Tigers",
+    "nicknames": "",
+    "state": "MI",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 50
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Detroit",
+    "location": "Detroit",
+    "franchise": "DET",
+    "current_franchise": 52,
+    "league": "AL",
+    "name": "Tigers",
+    "nicknames": "",
+    "state": "MI",
+    "end": "1997-09-28",
+    "division": "E"
+  },
+  "pk": 51
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1998-03-31",
+    "city": "Detroit",
+    "location": "Detroit",
+    "franchise": "DET",
+    "current_franchise": 52,
+    "league": "AL",
+    "name": "Tigers",
+    "nicknames": "",
+    "state": "MI",
+    "end": null,
+    "division": "C"
+  },
+  "pk": 52
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1962-04-10",
+    "city": "Houston",
+    "location": "Houston",
+    "franchise": "HOU",
+    "current_franchise": 57,
+    "league": "NL",
+    "name": "Colt .45's",
+    "nicknames": "",
+    "state": "TX",
+    "end": "1964-10-04",
+    "division": ""
+  },
+  "pk": 53
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1965-04-12",
+    "city": "Houston",
+    "location": "Houston",
+    "franchise": "HOU",
+    "current_franchise": 57,
+    "league": "NL",
+    "name": "Astros",
+    "nicknames": "",
+    "state": "TX",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 54
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Houston",
+    "location": "Houston",
+    "franchise": "HOU",
+    "current_franchise": 57,
+    "league": "NL",
+    "name": "Astros",
+    "nicknames": "",
+    "state": "TX",
+    "end": "1993-10-03",
+    "division": "W"
+  },
+  "pk": 55
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1994-04-04",
+    "city": "Houston",
+    "location": "Houston",
+    "franchise": "HOU",
+    "current_franchise": 57,
+    "league": "NL",
+    "name": "Astros",
+    "nicknames": "",
+    "state": "TX",
+    "end": "2012-10-03",
+    "division": "C"
+  },
+  "pk": 56
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "2013-03-31",
+    "city": "Houston",
+    "location": "Houston",
+    "franchise": "HOU",
+    "current_franchise": 57,
+    "league": "AL",
+    "name": "Astros",
+    "nicknames": "",
+    "state": "TX",
+    "end": null,
+    "division": "W"
+  },
+  "pk": 57
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Kansas City",
+    "location": "Kansas City",
+    "franchise": "KCA",
+    "current_franchise": 59,
+    "league": "AL",
+    "name": "Royals",
+    "nicknames": "",
+    "state": "MO",
+    "end": "1993-10-03",
+    "division": "W"
+  },
+  "pk": 58
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1994-04-04",
+    "city": "Kansas City",
+    "location": "Kansas City",
+    "franchise": "KCA",
+    "current_franchise": 59,
+    "league": "AL",
+    "name": "Royals",
+    "nicknames": "",
+    "state": "MO",
+    "end": null,
+    "division": "C"
+  },
+  "pk": 59
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1884-05-01",
+    "city": "Brooklyn",
+    "location": "Brooklyn",
+    "franchise": "BR3",
+    "current_franchise": 70,
+    "league": "AA",
+    "name": "Atlantics",
+    "nicknames": "Trolley Dodgers",
+    "state": "NY",
+    "end": "1884-10-15",
+    "division": ""
+  },
+  "pk": 60
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1885-04-20",
+    "city": "Brooklyn",
+    "location": "Brooklyn",
+    "franchise": "BR3",
+    "current_franchise": 70,
+    "league": "AA",
+    "name": "Grays",
+    "nicknames": "Trolley Dodgers",
+    "state": "NY",
+    "end": "1887-10-10",
+    "division": ""
+  },
+  "pk": 61
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1888-04-08",
+    "city": "Brooklyn",
+    "location": "Brooklyn",
+    "franchise": "BR4",
+    "current_franchise": 70,
+    "league": "AA",
+    "name": "Bridegrooms",
+    "nicknames": "",
+    "state": "NY",
+    "end": "1889-10-14",
+    "division": ""
+  },
+  "pk": 62
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1890-04-19",
+    "city": "Brooklyn",
+    "location": "Brooklyn",
+    "franchise": "BRO",
+    "current_franchise": 70,
+    "league": "NL",
+    "name": "Bridegrooms",
+    "nicknames": "Grooms",
+    "state": "NY",
+    "end": "1898-10-15",
+    "division": ""
+  },
+  "pk": 63
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1899-04-15",
+    "city": "Brooklyn",
+    "location": "Brooklyn",
+    "franchise": "BRO",
+    "current_franchise": 70,
+    "league": "NL",
+    "name": "Superbas",
+    "nicknames": "",
+    "state": "NY",
+    "end": "1910-10-12",
+    "division": ""
+  },
+  "pk": 64
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1911-04-12",
+    "city": "Brooklyn",
+    "location": "Brooklyn",
+    "franchise": "BRO",
+    "current_franchise": 70,
+    "league": "NL",
+    "name": "Dodgers",
+    "nicknames": "Superbas",
+    "state": "NY",
+    "end": "1912-10-05",
+    "division": ""
+  },
+  "pk": 65
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1913-04-09",
+    "city": "Brooklyn",
+    "location": "Brooklyn",
+    "franchise": "BRO",
+    "current_franchise": 70,
+    "league": "NL",
+    "name": "Superbas",
+    "nicknames": "",
+    "state": "NY",
+    "end": "1913-10-03",
+    "division": ""
+  },
+  "pk": 66
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1914-04-14",
+    "city": "Brooklyn",
+    "location": "Brooklyn",
+    "franchise": "BRO",
+    "current_franchise": 70,
+    "league": "NL",
+    "name": "Robins",
+    "nicknames": "",
+    "state": "NY",
+    "end": "1931-09-27",
+    "division": ""
+  },
+  "pk": 67
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1932-04-12",
+    "city": "Brooklyn",
+    "location": "Brooklyn",
+    "franchise": "BRO",
+    "current_franchise": 70,
+    "league": "NL",
+    "name": "Dodgers",
+    "nicknames": "",
+    "state": "NY",
+    "end": "1957-09-29",
+    "division": ""
+  },
+  "pk": 68
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1958-04-15",
+    "city": "Los Angeles",
+    "location": "Los Angeles",
+    "franchise": "LAN",
+    "current_franchise": 70,
+    "league": "NL",
+    "name": "Dodgers",
+    "nicknames": "",
+    "state": "CA",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 69
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-07",
+    "city": "Los Angeles",
+    "location": "Los Angeles",
+    "franchise": "LAN",
+    "current_franchise": 70,
+    "league": "NL",
+    "name": "Dodgers",
+    "nicknames": "",
+    "state": "CA",
+    "end": null,
+    "division": "W"
+  },
+  "pk": 70
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1993-04-05",
+    "city": "Miami",
+    "location": "Florida",
+    "franchise": "FLO",
+    "current_franchise": 72,
+    "league": "NL",
+    "name": "Marlins",
+    "nicknames": "",
+    "state": "FL",
+    "end": "2011-09-28",
+    "division": "E"
+  },
+  "pk": 71
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "2012-04-04",
+    "city": "Miami",
+    "location": "Miami",
+    "franchise": "MIA",
+    "current_franchise": 72,
+    "league": "NL",
+    "name": "Marlins",
+    "nicknames": "",
+    "state": "FL",
+    "end": null,
+    "division": "E"
+  },
+  "pk": 72
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Seattle",
+    "location": "Seattle",
+    "franchise": "SE1",
+    "current_franchise": 77,
+    "league": "AL",
+    "name": "Pilots",
+    "nicknames": "",
+    "state": "WA",
+    "end": "1969-10-02",
+    "division": "W"
+  },
+  "pk": 73
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1970-04-07",
+    "city": "Milwaukee",
+    "location": "Milwaukee",
+    "franchise": "MIL",
+    "current_franchise": 77,
+    "league": "AL",
+    "name": "Brewers",
+    "nicknames": "",
+    "state": "WI",
+    "end": "1971-09-30",
+    "division": "W"
+  },
+  "pk": 74
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1972-04-15",
+    "city": "Milwaukee",
+    "location": "Milwaukee",
+    "franchise": "MIL",
+    "current_franchise": 77,
+    "league": "AL",
+    "name": "Brewers",
+    "nicknames": "",
+    "state": "WI",
+    "end": "1993-10-03",
+    "division": "E"
+  },
+  "pk": 75
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1994-04-05",
+    "city": "Milwaukee",
+    "location": "Milwaukee",
+    "franchise": "MIL",
+    "current_franchise": 77,
+    "league": "AL",
+    "name": "Brewers",
+    "nicknames": "",
+    "state": "WI",
+    "end": "1997-09-28",
+    "division": "C"
+  },
+  "pk": 76
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1998-03-31",
+    "city": "Milwaukee",
+    "location": "Milwaukee",
+    "franchise": "MIL",
+    "current_franchise": 77,
+    "league": "NL",
+    "name": "Brewers",
+    "nicknames": "",
+    "state": "WI",
+    "end": null,
+    "division": "C"
+  },
+  "pk": 77
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1901-04-26",
+    "city": "Washington",
+    "location": "Washington",
+    "franchise": "WS1",
+    "current_franchise": 82,
+    "league": "AL",
+    "name": "Senators",
+    "nicknames": "Nationals",
+    "state": "DC",
+    "end": "1960-10-02",
+    "division": ""
+  },
+  "pk": 78
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1961-04-11",
+    "city": "Bloomington",
+    "location": "Minnesota",
+    "franchise": "MIN",
+    "current_franchise": 82,
+    "league": "AL",
+    "name": "Twins",
+    "nicknames": "",
+    "state": "MN",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 79
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Bloomington",
+    "location": "Minnesota",
+    "franchise": "MIN",
+    "current_franchise": 82,
+    "league": "AL",
+    "name": "Twins",
+    "nicknames": "",
+    "state": "MN",
+    "end": "1981-09-30",
+    "division": "W"
+  },
+  "pk": 80
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1982-04-06",
+    "city": "Minneapolis",
+    "location": "Minnesota",
+    "franchise": "MIN",
+    "current_franchise": 82,
+    "league": "AL",
+    "name": "Twins",
+    "nicknames": "",
+    "state": "MN",
+    "end": "1993-10-03",
+    "division": "W"
+  },
+  "pk": 81
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1994-04-05",
+    "city": "Minneapolis",
+    "location": "Minnesota",
+    "franchise": "MIN",
+    "current_franchise": 82,
+    "league": "AL",
+    "name": "Twins",
+    "nicknames": "",
+    "state": "MN",
+    "end": null,
+    "division": "C"
+  },
+  "pk": 82
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1901-04-26",
+    "city": "Baltimore",
+    "location": "Baltimore",
+    "franchise": "BLA",
+    "current_franchise": 86,
+    "league": "AL",
+    "name": "Orioles",
+    "nicknames": "",
+    "state": "MD",
+    "end": "1902-09-29",
+    "division": ""
+  },
+  "pk": 83
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1903-04-22",
+    "city": "New York",
+    "location": "New York",
+    "franchise": "NYA",
+    "current_franchise": 86,
+    "league": "AL",
+    "name": "Highlanders",
+    "nicknames": "Hilltoppers;Greater New Yorks",
+    "state": "NY",
+    "end": "1912-10-05",
+    "division": ""
+  },
+  "pk": 84
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1913-04-10",
+    "city": "New York",
+    "location": "New York",
+    "franchise": "NYA",
+    "current_franchise": 86,
+    "league": "AL",
+    "name": "Yankees",
+    "nicknames": "",
+    "state": "NY",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 85
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-07",
+    "city": "New York",
+    "location": "New York",
+    "franchise": "NYA",
+    "current_franchise": 86,
+    "league": "AL",
+    "name": "Yankees",
+    "nicknames": "",
+    "state": "NY",
+    "end": null,
+    "division": "E"
+  },
+  "pk": 86
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1962-04-11",
+    "city": "New York",
+    "location": "New York",
+    "franchise": "NYN",
+    "current_franchise": 88,
+    "league": "NL",
+    "name": "Mets",
+    "nicknames": "",
+    "state": "NY",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 87
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "New York",
+    "location": "New York",
+    "franchise": "NYN",
+    "current_franchise": 88,
+    "league": "NL",
+    "name": "Mets",
+    "nicknames": "",
+    "state": "NY",
+    "end": null,
+    "division": "E"
+  },
+  "pk": 88
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1901-04-26",
+    "city": "Philadelphia",
+    "location": "Philadelphia",
+    "franchise": "PHA",
+    "current_franchise": 92,
+    "league": "AL",
+    "name": "Athletics",
+    "nicknames": "A's",
+    "state": "PA",
+    "end": "1954-09-26",
+    "division": ""
+  },
+  "pk": 89
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1955-04-12",
+    "city": "Kansas City",
+    "location": "Kansas City",
+    "franchise": "KC1",
+    "current_franchise": 92,
+    "league": "AL",
+    "name": "Athletics",
+    "nicknames": "A's",
+    "state": "MO",
+    "end": "1967-04-11",
+    "division": ""
+  },
+  "pk": 90
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1968-04-10",
+    "city": "Oakland",
+    "location": "Oakland",
+    "franchise": "OAK",
+    "current_franchise": 92,
+    "league": "AL",
+    "name": "Athletics",
+    "nicknames": "A's",
+    "state": "CA",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 91
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Oakland",
+    "location": "Oakland",
+    "franchise": "OAK",
+    "current_franchise": 92,
+    "league": "AL",
+    "name": "Athletics",
+    "nicknames": "A's",
+    "state": "CA",
+    "end": null,
+    "division": "W"
+  },
+  "pk": 92
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1883-05-01",
+    "city": "Philadelphia",
+    "location": "Philadelphia",
+    "franchise": "PHI",
+    "current_franchise": 97,
+    "league": "NL",
+    "name": "Quakers",
+    "nicknames": "",
+    "state": "PA",
+    "end": "1889-10-05",
+    "division": ""
+  },
+  "pk": 93
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1890-04-19",
+    "city": "Philadelphia",
+    "location": "Philadelphia",
+    "franchise": "PHI",
+    "current_franchise": 97,
+    "league": "NL",
+    "name": "Phillies",
+    "nicknames": "",
+    "state": "PA",
+    "end": "1942-09-27",
+    "division": ""
+  },
+  "pk": 94
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1943-04-24",
+    "city": "Philadelphia",
+    "location": "Philadelphia",
+    "franchise": "PHI",
+    "current_franchise": 97,
+    "league": "NL",
+    "name": "Blue Jays",
+    "nicknames": "",
+    "state": "PA",
+    "end": "1944-10-01",
+    "division": ""
+  },
+  "pk": 95
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1945-04-17",
+    "city": "Philadelphia",
+    "location": "Philadelphia",
+    "franchise": "PHI",
+    "current_franchise": 97,
+    "league": "NL",
+    "name": "Phillies",
+    "nicknames": "",
+    "state": "PA",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 96
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Philadelphia",
+    "location": "Philadelphia",
+    "franchise": "PHI",
+    "current_franchise": 97,
+    "league": "NL",
+    "name": "Phillies",
+    "nicknames": "",
+    "state": "PA",
+    "end": null,
+    "division": "E"
+  },
+  "pk": 97
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1882-05-02",
+    "city": "Pittsburg",
+    "location": "Allegheny Club",
+    "franchise": "PT1",
+    "current_franchise": 103,
+    "league": "AA",
+    "name": "(none)",
+    "nicknames": "",
+    "state": "PA",
+    "end": "1884-10-15",
+    "division": ""
+  },
+  "pk": 98
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1885-04-18",
+    "city": "Pittsburg",
+    "location": "Pittsburgh",
+    "franchise": "PT1",
+    "current_franchise": 103,
+    "league": "AA",
+    "name": "Alleghenys",
+    "nicknames": "",
+    "state": "PA",
+    "end": "1886-10-12",
+    "division": ""
+  },
+  "pk": 99
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1887-04-30",
+    "city": "Pittsburg",
+    "location": "Pittsburgh",
+    "franchise": "PIT",
+    "current_franchise": 103,
+    "league": "NL",
+    "name": "Alleghenys",
+    "nicknames": "Innocents (1890)",
+    "state": "PA",
+    "end": "1890-10-03",
+    "division": ""
+  },
+  "pk": 100
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1891-04-22",
+    "city": "Pittsburgh",
+    "location": "Pittsburgh",
+    "franchise": "PIT",
+    "current_franchise": 103,
+    "league": "NL",
+    "name": "Pirates",
+    "nicknames": "",
+    "state": "PA",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 101
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Pittsburgh",
+    "location": "Pittsburgh",
+    "franchise": "PIT",
+    "current_franchise": 103,
+    "league": "NL",
+    "name": "Pirates",
+    "nicknames": "",
+    "state": "PA",
+    "end": "1993-10-03",
+    "division": "E"
+  },
+  "pk": 102
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1994-04-04",
+    "city": "Pittsburgh",
+    "location": "Pittsburgh",
+    "franchise": "PIT",
+    "current_franchise": 103,
+    "league": "NL",
+    "name": "Pirates",
+    "nicknames": "",
+    "state": "PA",
+    "end": null,
+    "division": "C"
+  },
+  "pk": 103
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "San Diego",
+    "location": "San Diego",
+    "franchise": "SDN",
+    "current_franchise": 104,
+    "league": "NL",
+    "name": "Padres",
+    "nicknames": "",
+    "state": "CA",
+    "end": null,
+    "division": "W"
+  },
+  "pk": 104
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1977-04-06",
+    "city": "Seattle",
+    "location": "Seattle",
+    "franchise": "SEA",
+    "current_franchise": 105,
+    "league": "AL",
+    "name": "Mariners",
+    "nicknames": "",
+    "state": "WA",
+    "end": null,
+    "division": "W"
+  },
+  "pk": 105
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1883-05-01",
+    "city": "New York",
+    "location": "New York",
+    "franchise": "NY1",
+    "current_franchise": 109,
+    "league": "NL",
+    "name": "Gothams",
+    "nicknames": "",
+    "state": "NY",
+    "end": "1884-10-14",
+    "division": ""
+  },
+  "pk": 106
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1885-05-02",
+    "city": "New York",
+    "location": "New York",
+    "franchise": "NY1",
+    "current_franchise": 109,
+    "league": "NL",
+    "name": "Giants",
+    "nicknames": "",
+    "state": "NY",
+    "end": "1957-09-29",
+    "division": ""
+  },
+  "pk": 107
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1958-04-15",
+    "city": "San Francisco",
+    "location": "San Francisco",
+    "franchise": "SFN",
+    "current_franchise": 109,
+    "league": "NL",
+    "name": "Giants",
+    "nicknames": "",
+    "state": "CA",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 108
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-07",
+    "city": "San Francisco",
+    "location": "San Francisco",
+    "franchise": "SFN",
+    "current_franchise": 109,
+    "league": "NL",
+    "name": "Giants",
+    "nicknames": "",
+    "state": "CA",
+    "end": null,
+    "division": "W"
+  },
+  "pk": 109
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1882-05-02",
+    "city": "St. Louis",
+    "location": "St. Louis",
+    "franchise": "SLN",
+    "current_franchise": 115,
+    "league": "AA",
+    "name": "Browns",
+    "nicknames": "Brown Stockings",
+    "state": "MO",
+    "end": "1891-10-04",
+    "division": ""
+  },
+  "pk": 110
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1892-10-15",
+    "city": "St. Louis",
+    "location": "St. Louis",
+    "franchise": "SLN",
+    "current_franchise": 115,
+    "league": "NL",
+    "name": "Browns",
+    "nicknames": "",
+    "state": "MO",
+    "end": "1898-10-09",
+    "division": ""
+  },
+  "pk": 111
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1899-04-15",
+    "city": "St. Louis",
+    "location": "St. Louis",
+    "franchise": "SLN",
+    "current_franchise": 115,
+    "league": "NL",
+    "name": "Perfectos",
+    "nicknames": "",
+    "state": "MO",
+    "end": "1899-10-15",
+    "division": ""
+  },
+  "pk": 112
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1900-04-19",
+    "city": "St. Louis",
+    "location": "St. Louis",
+    "franchise": "SLN",
+    "current_franchise": 115,
+    "league": "NL",
+    "name": "Cardinals",
+    "nicknames": "",
+    "state": "MO",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 113
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "St. Louis",
+    "location": "St. Louis",
+    "franchise": "SLN",
+    "current_franchise": 115,
+    "league": "NL",
+    "name": "Cardinals",
+    "nicknames": "",
+    "state": "MO",
+    "end": "1993-10-03",
+    "division": "E"
+  },
+  "pk": 114
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1994-04-03",
+    "city": "St. Louis",
+    "location": "St. Louis",
+    "franchise": "SLN",
+    "current_franchise": 115,
+    "league": "NL",
+    "name": "Cardinals",
+    "nicknames": "",
+    "state": "MO",
+    "end": null,
+    "division": "C"
+  },
+  "pk": 115
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1998-03-31",
+    "city": "St. Petersburg",
+    "location": "Tampa Bay",
+    "franchise": "TBA",
+    "current_franchise": 117,
+    "league": "AL",
+    "name": "Devil Rays",
+    "nicknames": "",
+    "state": "FL",
+    "end": "2007-09-30",
+    "division": "E"
+  },
+  "pk": 116
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "2008-03-31",
+    "city": "St. Petersburg",
+    "location": "Tampa Bay",
+    "franchise": "TBA",
+    "current_franchise": 117,
+    "league": "AL",
+    "name": "Rays",
+    "nicknames": "",
+    "state": "FL",
+    "end": null,
+    "division": "E"
+  },
+  "pk": 117
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1961-04-10",
+    "city": "Washington",
+    "location": "Washington",
+    "franchise": "WS2",
+    "current_franchise": 120,
+    "league": "AL",
+    "name": "Senators",
+    "nicknames": "",
+    "state": "DC",
+    "end": "1968-09-29",
+    "division": ""
+  },
+  "pk": 118
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-07",
+    "city": "Washington",
+    "location": "Washington",
+    "franchise": "WS2",
+    "current_franchise": 120,
+    "league": "AL",
+    "name": "Senators",
+    "nicknames": "",
+    "state": "DC",
+    "end": "1971-09-30",
+    "division": "E"
+  },
+  "pk": 119
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1972-04-15",
+    "city": "Arlington",
+    "location": "Texas",
+    "franchise": "TEX",
+    "current_franchise": 120,
+    "league": "AL",
+    "name": "Rangers",
+    "nicknames": "",
+    "state": "TX",
+    "end": null,
+    "division": "W"
+  },
+  "pk": 120
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1977-04-07",
+    "city": "Toronto",
+    "location": "Toronto",
+    "franchise": "TOR",
+    "current_franchise": 121,
+    "league": "AL",
+    "name": "Blue Jays",
+    "nicknames": "",
+    "state": "ON",
+    "end": null,
+    "division": "E"
+  },
+  "pk": 121
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "Montreal",
+    "location": "Montreal",
+    "franchise": "MON",
+    "current_franchise": 123,
+    "league": "NL",
+    "name": "Expos",
+    "nicknames": "",
+    "state": "QC",
+    "end": "2004-10-03",
+    "division": "E"
+  },
+  "pk": 122
+},
+{
+  "model": "djangosheet.team",
+  "fields": {
+    "start": "2005-04-04",
+    "city": "Washington",
+    "location": "Washington",
+    "franchise": "WAS",
+    "current_franchise": 123,
+    "league": "NL",
+    "name": "Nationals",
+    "nicknames": "",
+    "state": "DC",
+    "end": null,
+    "division": "E"
+  },
+  "pk": 123
+}
+]

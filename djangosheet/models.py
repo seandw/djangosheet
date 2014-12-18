@@ -33,8 +33,9 @@ class Team(models.Model):
     def get_by_year(cls, year):
         # magic specific date, all teams appear to start before May 20th
         start_date = year + '-5-20'
-        return cls.objects.filter(models.Q(end__gte=start_date) | models.Q(end__isnull=True),
-                                  start__lte=start_date)
+        teams = cls.objects.filter(models.Q(end__gte=start_date) | models.Q(end__isnull=True),
+                                   start__lte=start_date)
+        return {team.franchise: team for team in teams}
 
 
 class Park(models.Model):
@@ -66,7 +67,6 @@ class Player(models.Model):
     id = models.CharField(max_length=8, primary_key=True)
     last_name = models.CharField(max_length=255)
     first_name = models.CharField(max_length=255)
-    debut = models.DateField()
 
     def __str__(self):
         return self.first_name + ' ' + self.last_name

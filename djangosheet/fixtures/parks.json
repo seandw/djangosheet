@@ -1,0 +1,3488 @@
+[
+{
+  "pk": "ALB01",
+  "fields": {
+    "start": "1880-09-11",
+    "city": "Albany",
+    "aka": "",
+    "league": "NL",
+    "end": "1882-05-30",
+    "name": "Riverside Park",
+    "notes": "TRN:9/11/80;6/15&9/10/1881;5/16-5/18&5/30/1882",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "ALT01",
+  "fields": {
+    "start": "1884-04-30",
+    "city": "Altoona",
+    "aka": "",
+    "league": "UA",
+    "end": "1884-05-31",
+    "name": "Columbia Park",
+    "notes": "",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "ANA01",
+  "fields": {
+    "start": "1966-04-19",
+    "city": "Anaheim",
+    "aka": "Edison Field; Anaheim Stadium",
+    "league": "AL",
+    "end": null,
+    "name": "Angel Stadium of Anaheim",
+    "notes": "",
+    "state": "CA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "ARL01",
+  "fields": {
+    "start": "1972-04-21",
+    "city": "Arlington",
+    "aka": "",
+    "league": "AL",
+    "end": "1993-10-03",
+    "name": "Arlington Stadium",
+    "notes": "",
+    "state": "TX"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "ARL02",
+  "fields": {
+    "start": "1994-04-11",
+    "city": "Arlington",
+    "aka": "The Ballpark in Arlington; Ameriquest Fl",
+    "league": "AL",
+    "end": null,
+    "name": "Rangers Ballpark in Arlington",
+    "notes": "",
+    "state": "TX"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "ATL01",
+  "fields": {
+    "start": "1966-04-12",
+    "city": "Atlanta",
+    "aka": "",
+    "league": "NL",
+    "end": "1996-09-23",
+    "name": "Atlanta-Fulton County Stadium",
+    "notes": "",
+    "state": "GA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "ATL02",
+  "fields": {
+    "start": "1997-04-04",
+    "city": "Atlanta",
+    "aka": "",
+    "league": "NL",
+    "end": null,
+    "name": "Turner Field",
+    "notes": "",
+    "state": "GA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BAL01",
+  "fields": {
+    "start": "1871-07-08",
+    "city": "Baltimore",
+    "aka": "",
+    "league": "NA",
+    "end": "1871-07-08",
+    "name": "Madison Avenue Grounds",
+    "notes": "WS3",
+    "state": "MD"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BAL02",
+  "fields": {
+    "start": "1872-04-22",
+    "city": "Baltimore",
+    "aka": "",
+    "league": "",
+    "end": "1882-09-30",
+    "name": "Newington Park",
+    "notes": "BL1:1872-74; BL4:1873; BL2: 1882",
+    "state": "MD"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BAL03",
+  "fields": {
+    "start": "1883-05-01",
+    "city": "Baltimore",
+    "aka": "",
+    "league": "AA",
+    "end": "1889-10-10",
+    "name": "Oriole Park I",
+    "notes": "",
+    "state": "MD"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BAL04",
+  "fields": {
+    "start": "1884-04-17",
+    "city": "Baltimore",
+    "aka": "",
+    "league": "UA",
+    "end": "1884-09-24",
+    "name": "Belair Lot",
+    "notes": "BLU:not 8/25",
+    "state": "MD"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BAL05",
+  "fields": {
+    "start": "1884-08-25",
+    "city": "Baltimore",
+    "aka": "",
+    "league": "UA",
+    "end": "1884-08-25",
+    "name": "Monumental Park",
+    "notes": "BLU",
+    "state": "MD"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BAL06",
+  "fields": {
+    "start": "1890-08-27",
+    "city": "Baltimore",
+    "aka": "",
+    "league": "AA",
+    "end": "1891-05-09",
+    "name": "Oriole Park II",
+    "notes": "",
+    "state": "MD"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BAL07",
+  "fields": {
+    "start": "1891-05-11",
+    "city": "Baltimore",
+    "aka": "",
+    "league": "",
+    "end": "1899-10-10",
+    "name": "Union Park",
+    "notes": "BL3:1891; BLN:1892-99",
+    "state": "MD"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BAL09",
+  "fields": {
+    "start": "1901-04-26",
+    "city": "Baltimore",
+    "aka": "American League Park",
+    "league": "AL",
+    "end": "1902-09-29",
+    "name": "Oriole Park III",
+    "notes": "",
+    "state": "MD"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BAL10",
+  "fields": {
+    "start": "1914-04-13",
+    "city": "Baltimore",
+    "aka": "Oriole Park V",
+    "league": "FL",
+    "end": "1915-10-02",
+    "name": "Terrapin Park",
+    "notes": "",
+    "state": "MD"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BAL11",
+  "fields": {
+    "start": "1954-04-15",
+    "city": "Baltimore",
+    "aka": "",
+    "league": "AL",
+    "end": "1991-09-30",
+    "name": "Memorial Stadium",
+    "notes": "",
+    "state": "MD"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BAL12",
+  "fields": {
+    "start": "1992-04-06",
+    "city": "Baltimore",
+    "aka": "",
+    "league": "AL",
+    "end": null,
+    "name": "Oriole Park at Camden Yards",
+    "notes": "",
+    "state": "MD"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BOS01",
+  "fields": {
+    "start": "1871-05-16",
+    "city": "Boston",
+    "aka": "Walpole Street Grounds",
+    "league": "",
+    "end": "1887-09-10",
+    "name": "South End Grounds I",
+    "notes": "BS1:1871-75; HR1: 8/12/1874; BSN:1876-1887",
+    "state": "MA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BOS02",
+  "fields": {
+    "start": "1884-04-30",
+    "city": "Boston",
+    "aka": "Union Park",
+    "league": "UA",
+    "end": "1884-09-24",
+    "name": "Dartmouth Grounds",
+    "notes": "BSU",
+    "state": "MA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BOS03",
+  "fields": {
+    "start": "1888-05-25",
+    "city": "Boston",
+    "aka": "",
+    "league": "NL",
+    "end": "1894-05-15",
+    "name": "South End Grounds II",
+    "notes": "",
+    "state": "MA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BOS04",
+  "fields": {
+    "start": "1890-04-19",
+    "city": "Boston",
+    "aka": "",
+    "league": "",
+    "end": "1894-06-20",
+    "name": "Congress Street Grounds",
+    "notes": "BSP:1890; BS2:1891; BSN:5/16 to 6/20/1894",
+    "state": "MA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BOS05",
+  "fields": {
+    "start": "1894-07-20",
+    "city": "Boston",
+    "aka": "",
+    "league": "NL",
+    "end": "1914-08-11",
+    "name": "South End Grounds III",
+    "notes": "",
+    "state": "MA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BOS06",
+  "fields": {
+    "start": "1901-05-08",
+    "city": "Boston",
+    "aka": "",
+    "league": "AL",
+    "end": "1911-10-07",
+    "name": "Huntington Avenue Baseball Grounds",
+    "notes": "",
+    "state": "MA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BOS07",
+  "fields": {
+    "start": "1912-04-20",
+    "city": "Boston",
+    "aka": "",
+    "league": "AL",
+    "end": null,
+    "name": "Fenway Park",
+    "notes": "BOS:1912-date; BSN:9/7to9/29/1914;4/14to7/26/15",
+    "state": "MA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BOS08",
+  "fields": {
+    "start": "1915-08-18",
+    "city": "Boston",
+    "aka": "Bee Hive",
+    "league": "",
+    "end": "1952-09-21",
+    "name": "Braves Field",
+    "notes": "",
+    "state": "MA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BUF01",
+  "fields": {
+    "start": "1879-05-01",
+    "city": "Buffalo",
+    "aka": "",
+    "league": "NL",
+    "end": "1883-09-08",
+    "name": "Riverside Grounds",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BUF02",
+  "fields": {
+    "start": "1884-05-21",
+    "city": "Buffalo",
+    "aka": "",
+    "league": "NL",
+    "end": "1885-10-07",
+    "name": "Olympic Park I",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BUF03",
+  "fields": {
+    "start": "1890-04-19",
+    "city": "Buffalo",
+    "aka": "",
+    "league": "PL",
+    "end": "1890-10-04",
+    "name": "Olympic Park II",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "BUF04",
+  "fields": {
+    "start": "1914-05-11",
+    "city": "Buffalo",
+    "aka": "Federal League Park",
+    "league": "FL",
+    "end": "1915-09-29",
+    "name": "International Fair Association Grounds",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CAN01",
+  "fields": {
+    "start": "1890-09-18",
+    "city": "Canton",
+    "aka": "Pastime Park",
+    "league": "",
+    "end": "1903-06-21",
+    "name": "Mahaffey Park",
+    "notes": "PIT 9/18/1890; CLE 6/15/02,5/10&6/21/03",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CAN02",
+  "fields": {
+    "start": "1890-09-18",
+    "city": "Canton",
+    "aka": "",
+    "league": "NL",
+    "end": "1890-09-18",
+    "name": "Pastime Park",
+    "notes": "1 PIT game",
+    "state": "PH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CHI01",
+  "fields": {
+    "start": "1871-05-08",
+    "city": "Chicago",
+    "aka": "Union Base-ball Grounds",
+    "league": "NA",
+    "end": "1871-09-29",
+    "name": "Lake Front Park I",
+    "notes": "",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CHI02",
+  "fields": {
+    "start": "1872-05-29",
+    "city": "Chicago",
+    "aka": "",
+    "league": "",
+    "end": "1877-10-06",
+    "name": "23rd Street Park",
+    "notes": "CH2:1874-75; CHN:1876-77",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CHI03",
+  "fields": {
+    "start": "1878-05-14",
+    "city": "Chicago",
+    "aka": "",
+    "league": "NL",
+    "end": "1882-09-30",
+    "name": "Lake Front Park II",
+    "notes": "",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CHI04",
+  "fields": {
+    "start": "1883-05-05",
+    "city": "Chicago",
+    "aka": "",
+    "league": "NL",
+    "end": "1884-10-11",
+    "name": "Lake Front Park III",
+    "notes": "",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CHI05",
+  "fields": {
+    "start": "1884-05-02",
+    "city": "Chicago",
+    "aka": "Cricket Club Grounds; Union Grounds",
+    "league": "UA",
+    "end": "1884-08-01",
+    "name": "South Side Park I",
+    "notes": "",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CHI06",
+  "fields": {
+    "start": "1885-06-06",
+    "city": "Chicago",
+    "aka": "",
+    "league": "NL",
+    "end": "1891-10-03",
+    "name": "West Side Park",
+    "notes": "CHN:1891(M/W/F)",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CHI07",
+  "fields": {
+    "start": "1890-04-30",
+    "city": "Chicago",
+    "aka": "",
+    "league": "",
+    "end": "1893-09-27",
+    "name": "South Side Park II",
+    "notes": "CHP:1890;CHN:1891(Tu/Th/Sa);1892-93",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CHI08",
+  "fields": {
+    "start": "1893-05-13",
+    "city": "Chicago",
+    "aka": "",
+    "league": "NL",
+    "end": "1915-10-03",
+    "name": "West Side Grounds",
+    "notes": "CHN:1893(Sun);1894-1915",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CHI09",
+  "fields": {
+    "start": "1901-04-24",
+    "city": "Chicago",
+    "aka": "",
+    "league": "AL",
+    "end": "1910-06-27",
+    "name": "South Side Park III",
+    "notes": "",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CHI10",
+  "fields": {
+    "start": "1910-07-01",
+    "city": "Chicago",
+    "aka": "White Sox Park",
+    "league": "AL",
+    "end": "1990-09-30",
+    "name": "Comiskey Park I",
+    "notes": "",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CHI11",
+  "fields": {
+    "start": "1914-04-23",
+    "city": "Chicago",
+    "aka": "Weeghman Park; Cubs Park",
+    "league": "NL",
+    "end": null,
+    "name": "Wrigley Field",
+    "notes": "CHF:1914-15; CHN:1916-date",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CHI12",
+  "fields": {
+    "start": "1991-04-18",
+    "city": "Chicago",
+    "aka": "White Sox Park; Comiskey Park II",
+    "league": "AL",
+    "end": null,
+    "name": "U.S. Cellular Field",
+    "notes": "",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CIN01",
+  "fields": {
+    "start": "1871-05-13",
+    "city": "Cincinnati",
+    "aka": "Union Cricket Club Grounds",
+    "league": "NA",
+    "end": "1871-07-22",
+    "name": "Lincoln Park Grounds",
+    "notes": "WS3:5/13&7/4/1871; CL1:7/22/1871",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CIN02",
+  "fields": {
+    "start": "1876-04-25",
+    "city": "Cincinnati",
+    "aka": "",
+    "league": "NL",
+    "end": "1879-08-27",
+    "name": "Avenue Grounds",
+    "notes": "first Ladies Day (1876)",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CIN03",
+  "fields": {
+    "start": "1880-05-01",
+    "city": "Cincinnati",
+    "aka": "",
+    "league": "",
+    "end": "1884-10-15",
+    "name": "Bank Street Grounds",
+    "notes": "CN1:1880; CN2:1882-83; CNU:1884",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CIN04",
+  "fields": {
+    "start": "1884-05-01",
+    "city": "Cincinnati",
+    "aka": "",
+    "league": "",
+    "end": "1893-09-29",
+    "name": "League Park I",
+    "notes": "CN2:1884-89; CIN:1890-93",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CIN05",
+  "fields": {
+    "start": "1894-04-20",
+    "city": "Cincinnati",
+    "aka": "",
+    "league": "NL",
+    "end": "1901-10-02",
+    "name": "League Park II",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CIN06",
+  "fields": {
+    "start": "1902-04-17",
+    "city": "Cincinnati",
+    "aka": "League Park III",
+    "league": "NL",
+    "end": "1911-10-06",
+    "name": "Palace of the Fans",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CIN07",
+  "fields": {
+    "start": "1912-04-11",
+    "city": "Cincinnati",
+    "aka": "Redland Field",
+    "league": "NL",
+    "end": "1970-06-24",
+    "name": "Crosley Field",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CIN08",
+  "fields": {
+    "start": "1970-06-30",
+    "city": "Cincinnati",
+    "aka": "Riverfront Stadium",
+    "league": "NL",
+    "end": "2002-09-22",
+    "name": "Cinergy Field",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CIN09",
+  "fields": {
+    "start": "2003-03-31",
+    "city": "Cincinnati",
+    "aka": "",
+    "league": "NL",
+    "end": null,
+    "name": "Great American Ballpark",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CLE01",
+  "fields": {
+    "start": "1871-05-11",
+    "city": "Cleveland",
+    "aka": "",
+    "league": "NA",
+    "end": "1872-08-19",
+    "name": "National Association Grounds",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CLE02",
+  "fields": {
+    "start": "1879-05-01",
+    "city": "Cleveland",
+    "aka": "Kennard Street Park",
+    "league": "NL",
+    "end": "1884-10-11",
+    "name": "League Park I",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CLE03",
+  "fields": {
+    "start": "1887-05-04",
+    "city": "Cleveland",
+    "aka": "American Association Park",
+    "league": "",
+    "end": "1890-10-04",
+    "name": "League Park II",
+    "notes": "CL3:1887-88; CL4:1889-90",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CLE04",
+  "fields": {
+    "start": "1890-04-30",
+    "city": "Cleveland",
+    "aka": "Players League Park",
+    "league": "PL",
+    "end": "1890-10-04",
+    "name": "Brotherhood Park",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CLE05",
+  "fields": {
+    "start": "1891-05-01",
+    "city": "Cleveland",
+    "aka": "National League Park III",
+    "league": "",
+    "end": "1909-09-06",
+    "name": "League Park III",
+    "notes": "CL4:1891-99; CLE:1901-09",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CLE06",
+  "fields": {
+    "start": "1910-04-21",
+    "city": "Cleveland",
+    "aka": "Dunn Field",
+    "league": "AL",
+    "end": "1946-09-21",
+    "name": "League Park IV",
+    "notes": "CLE:1910-7/30/1932;1934-46",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CLE07",
+  "fields": {
+    "start": "1932-07-31",
+    "city": "Cleveland",
+    "aka": "Municipal Stadium",
+    "league": "AL",
+    "end": "1993-10-03",
+    "name": "Cleveland Stadium",
+    "notes": "CLE:7/31/1932-9/24/1933; 1947-1993",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CLE08",
+  "fields": {
+    "start": "1994-04-04",
+    "city": "Cleveland",
+    "aka": "Jacobs Field",
+    "league": "AL",
+    "end": null,
+    "name": "Progressive Field",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CLE09",
+  "fields": {
+    "start": "1887-08-21",
+    "city": "Cleveland",
+    "aka": "",
+    "league": "AA",
+    "end": "1887-08-21",
+    "name": "Cedar Avenue Driving Park",
+    "notes": "CL3: 1 game",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "CLL01",
+  "fields": {
+    "start": "1898-06-12",
+    "city": "Collinwood",
+    "aka": "",
+    "league": "NL",
+    "end": "1898-06-19",
+    "name": "Euclid Beach Park",
+    "notes": "CL4:6/12&6/19/1898",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "COL01",
+  "fields": {
+    "start": "1883-05-01",
+    "city": "Columbus",
+    "aka": "",
+    "league": "AA",
+    "end": "1884-09-22",
+    "name": "Recreation Park I",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "COL02",
+  "fields": {
+    "start": "1889-04-28",
+    "city": "Columbus",
+    "aka": "",
+    "league": "AA",
+    "end": "1891-09-22",
+    "name": "Recreation Park II",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "COL03",
+  "fields": {
+    "start": "1902-08-03",
+    "city": "Columbus",
+    "aka": "",
+    "league": "AL",
+    "end": "1903-05-17",
+    "name": "Neil Park I",
+    "notes": "CLE:2 games",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "COL04",
+  "fields": {
+    "start": "1905-07-23",
+    "city": "Columbus",
+    "aka": "",
+    "league": "AL",
+    "end": "1905-07-24",
+    "name": "Neil Park II",
+    "notes": "DET:2 games",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "COV01",
+  "fields": {
+    "start": "1875-09-21",
+    "city": "Covington",
+    "aka": "",
+    "league": "NA",
+    "end": "1875-09-21",
+    "name": "Star Baseball Park",
+    "notes": "PH2",
+    "state": "KY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "DAY01",
+  "fields": {
+    "start": "1902-06-08",
+    "city": "Dayton",
+    "aka": "",
+    "league": "AL",
+    "end": "1902-06-08",
+    "name": "Fairview Park",
+    "notes": "CLE",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "DEN01",
+  "fields": {
+    "start": "1993-04-09",
+    "city": "Denver",
+    "aka": "",
+    "league": "NL",
+    "end": "1994-08-11",
+    "name": "Mile High Stadium",
+    "notes": "",
+    "state": "CO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "DEN02",
+  "fields": {
+    "start": "1995-04-26",
+    "city": "Denver",
+    "aka": "",
+    "league": "NL",
+    "end": null,
+    "name": "Coors Field",
+    "notes": "",
+    "state": "CO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "DET01",
+  "fields": {
+    "start": "1881-05-02",
+    "city": "Detroit",
+    "aka": "",
+    "league": "NL",
+    "end": "1888-09-22",
+    "name": "Recreation Park",
+    "notes": "",
+    "state": "MI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "DET02",
+  "fields": {
+    "start": "1901-04-25",
+    "city": "Detroit",
+    "aka": "",
+    "league": "AL",
+    "end": "1911-09-10",
+    "name": "Bennett Park",
+    "notes": "",
+    "state": "MI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "DET03",
+  "fields": {
+    "start": "1901-04-28",
+    "city": "Detroit",
+    "aka": "West End Park",
+    "league": "AL",
+    "end": "1902-09-07",
+    "name": "Burns Park",
+    "notes": "Sundays only",
+    "state": "MI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "DET04",
+  "fields": {
+    "start": "1912-04-20",
+    "city": "Detroit",
+    "aka": "Navin Field; Briggs Stadium",
+    "league": "AL",
+    "end": "1999-09-27",
+    "name": "Tiger Stadium",
+    "notes": "",
+    "state": "MI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "DET05",
+  "fields": {
+    "start": "2000-04-11",
+    "city": "Detroit",
+    "aka": "",
+    "league": "AL",
+    "end": null,
+    "name": "Comerica Park",
+    "notes": "",
+    "state": "MI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "DOV01",
+  "fields": {
+    "start": "1875-06-24",
+    "city": "Dover",
+    "aka": "",
+    "league": "NA",
+    "end": "1875-06-24",
+    "name": "Fairview Park Fair Grounds",
+    "notes": "PH1",
+    "state": "DE"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "ELM01",
+  "fields": {
+    "start": "1885-10-10",
+    "city": "Elmira",
+    "aka": "",
+    "league": "NL",
+    "end": "1885-10-10",
+    "name": "Maple Avenue Driving Park",
+    "notes": "BFN",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "FOR01",
+  "fields": {
+    "start": "1871-05-04",
+    "city": "Fort Wayne",
+    "aka": "Hamilton Field",
+    "league": "NA",
+    "end": "1871-08-29",
+    "name": "Grand Duchess",
+    "notes": "First ML game",
+    "state": "IN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "FOR02",
+  "fields": {
+    "start": "1882-10-24",
+    "city": "Fort Wayne",
+    "aka": "",
+    "league": "NL",
+    "end": "1882-10-24",
+    "name": "Swinney Park",
+    "notes": "Last game of playoffs (CHN & PRO)",
+    "state": "IN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "FOR03",
+  "fields": {
+    "start": "1902-06-22",
+    "city": "Fort Wayne",
+    "aka": "",
+    "league": "AL",
+    "end": "1902-08-31",
+    "name": "Jailhouse Flats",
+    "notes": "CLE:2 games",
+    "state": "IN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "GEA01",
+  "fields": {
+    "start": "1888-07-22",
+    "city": "Geauga Lake",
+    "aka": "",
+    "league": "AA",
+    "end": "1888-09-02",
+    "name": "Geauga Lake Grounds",
+    "notes": "CL3",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "GLO01",
+  "fields": {
+    "start": "1888-08-05",
+    "city": "Gloucester City",
+    "aka": "",
+    "league": "AA",
+    "end": "1890-10-12",
+    "name": "Gloucester Point Grounds",
+    "notes": "Sundays; PH4 6/10/1888",
+    "state": "NJ"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "GRA01",
+  "fields": {
+    "start": "1903-05-24",
+    "city": "Grand Rapids",
+    "aka": "",
+    "league": "AL",
+    "end": "1903-05-24",
+    "name": "Ramona Park",
+    "notes": "DET",
+    "state": "MI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "HAR01",
+  "fields": {
+    "start": "1915-04-16",
+    "city": "Harrison",
+    "aka": "",
+    "league": "FL",
+    "end": "1915-10-03",
+    "name": "Harrison Field",
+    "notes": "NEW",
+    "state": "NJ"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "HON01",
+  "fields": {
+    "start": "1997-04-19",
+    "city": "Honolulu",
+    "aka": "",
+    "league": "NL",
+    "end": "1997-04-20",
+    "name": "Aloha Stadium",
+    "notes": "SDN:4/19&4/19&4/20/1997",
+    "state": "HI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "HOU01",
+  "fields": {
+    "start": "1962-04-10",
+    "city": "Houston",
+    "aka": "",
+    "league": "NL",
+    "end": "1964-09-27",
+    "name": "Colt Stadium",
+    "notes": "",
+    "state": "TX"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "HOU02",
+  "fields": {
+    "start": "1965-04-12",
+    "city": "Houston",
+    "aka": "",
+    "league": "NL",
+    "end": "1999-10-03",
+    "name": "Astrodome",
+    "notes": "",
+    "state": "TX"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "HOU03",
+  "fields": {
+    "start": "2000-04-07",
+    "city": "Houston",
+    "aka": "Enron Field; Astros Field",
+    "league": "NL",
+    "end": null,
+    "name": "Minute Maid Park",
+    "notes": "",
+    "state": "TX"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "HRT01",
+  "fields": {
+    "start": "1874-05-01",
+    "city": "Hartford",
+    "aka": "",
+    "league": "",
+    "end": "1876-09-30",
+    "name": "Hartford Ball Club Grounds",
+    "notes": "HR1:1874-75; HAR:1876",
+    "state": "CT"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "HRT02",
+  "fields": {
+    "start": "1872-06-21",
+    "city": "Hartford",
+    "aka": "",
+    "league": "NA",
+    "end": "1872-08-09",
+    "name": "Hartford Trotting Park",
+    "notes": "MID: 6/21, 7/3, 8/9",
+    "state": "CT"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "IND01",
+  "fields": {
+    "start": "1878-05-01",
+    "city": "Indianapolis",
+    "aka": "",
+    "league": "NL",
+    "end": "1878-09-14",
+    "name": "South Street Park",
+    "notes": "",
+    "state": "IN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "IND02",
+  "fields": {
+    "start": "1884-05-14",
+    "city": "Indianapolis",
+    "aka": "",
+    "league": "AA",
+    "end": "1884-09-20",
+    "name": "Seventh Street Park I",
+    "notes": "",
+    "state": "IN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "IND03",
+  "fields": {
+    "start": "1884-05-18",
+    "city": "Indianapolis",
+    "aka": "",
+    "league": "AA",
+    "end": "1884-09-21",
+    "name": "Bruce Grounds",
+    "notes": "Sundays",
+    "state": "IN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "IND04",
+  "fields": {
+    "start": "1887-04-28",
+    "city": "Indianapolis",
+    "aka": "",
+    "league": "NL",
+    "end": "1887-10-08",
+    "name": "Seventh Street Park II",
+    "notes": "",
+    "state": "IN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "IND05",
+  "fields": {
+    "start": "1888-04-20",
+    "city": "Indianapolis",
+    "aka": "",
+    "league": "NL",
+    "end": "1889-10-05",
+    "name": "Seventh Street Park III",
+    "notes": "",
+    "state": "IN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "IND06",
+  "fields": {
+    "start": "1890-07-28",
+    "city": "Indianapolis",
+    "aka": "",
+    "league": "NL",
+    "end": "1890-08-02",
+    "name": "Indianapolis Park",
+    "notes": "CL4",
+    "state": "IN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "IND07",
+  "fields": {
+    "start": "1914-04-23",
+    "city": "Indianapolis",
+    "aka": "Washington Park",
+    "league": "FL",
+    "end": "1914-10-08",
+    "name": "Federal League Park",
+    "notes": "",
+    "state": "IN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "IRO01",
+  "fields": {
+    "start": "1890-05-11",
+    "city": "Irondequoit",
+    "aka": "",
+    "league": "AA",
+    "end": "1890-07-20",
+    "name": "Windsor Beach",
+    "notes": "RC2: Sundays",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "JER01",
+  "fields": {
+    "start": "1889-04-24",
+    "city": "Jersey City",
+    "aka": "",
+    "league": "NL",
+    "end": "1889-04-25",
+    "name": "Oakdale Park",
+    "notes": "NY1: 2 games",
+    "state": "NJ"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "JER02",
+  "fields": {
+    "start": "1956-04-19",
+    "city": "Jersey City",
+    "aka": "",
+    "league": "NL",
+    "end": "1957-09-03",
+    "name": "Roosevelt Stadium",
+    "notes": "BRO: 7 gms (1956) & 8 gms (1957)",
+    "state": "NJ"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "KAN01",
+  "fields": {
+    "start": "1884-06-07",
+    "city": "Kansas City",
+    "aka": "",
+    "league": "UA",
+    "end": "1884-10-19",
+    "name": "Athletic Park",
+    "notes": "",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "KAN02",
+  "fields": {
+    "start": "1886-04-30",
+    "city": "Kansas City",
+    "aka": "",
+    "league": "",
+    "end": "1892-10-15",
+    "name": "Association Park",
+    "notes": "KCN:1886; KC2:1888; SLN 1892 (3 games)",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "KAN03",
+  "fields": {
+    "start": "1889-04-25",
+    "city": "Kansas City",
+    "aka": "",
+    "league": "AA",
+    "end": "1889-09-30",
+    "name": "Exposition Park",
+    "notes": "",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "KAN04",
+  "fields": {
+    "start": "1914-04-16",
+    "city": "Kansas City",
+    "aka": "",
+    "league": "FL",
+    "end": "1915-09-28",
+    "name": "Gordon and Koppel Field",
+    "notes": "",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "KAN05",
+  "fields": {
+    "start": "1955-04-12",
+    "city": "Kansas City",
+    "aka": "",
+    "league": "AL",
+    "end": "1972-10-04",
+    "name": "Municipal Stadium",
+    "notes": "KC1:1955-67; KCA:1969-1972",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "KAN06",
+  "fields": {
+    "start": "1973-04-10",
+    "city": "Kansas City",
+    "aka": "Royals Stadium",
+    "league": "AL",
+    "end": null,
+    "name": "Kauffman Stadium",
+    "notes": "",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "KEO01",
+  "fields": {
+    "start": "1875-05-04",
+    "city": "Keokuk",
+    "aka": "Walte's Pasture",
+    "league": "NA",
+    "end": "1875-06-14",
+    "name": "Perry Park",
+    "notes": "",
+    "state": "IA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "LAS01",
+  "fields": {
+    "start": "1996-04-01",
+    "city": "Las Vegas",
+    "aka": "",
+    "league": "AL",
+    "end": "1996-04-07",
+    "name": "Cashman Field",
+    "notes": "OAK: 6 games",
+    "state": "NV"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "LBV01",
+  "fields": {
+    "start": "2007-05-15",
+    "city": "Lake Buena Vista",
+    "aka": "",
+    "league": "AL",
+    "end": "2008-04-24",
+    "name": "The Ballpark at Disney's Wide World",
+    "notes": "TBA 3 games in 2007",
+    "state": "FL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "LOS01",
+  "fields": {
+    "start": "1958-04-18",
+    "city": "Los Angeles",
+    "aka": "",
+    "league": "NL",
+    "end": "1961-09-20",
+    "name": "Los Angeles Memorial Coliseum",
+    "notes": "",
+    "state": "CA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "LOS02",
+  "fields": {
+    "start": "1961-04-27",
+    "city": "Los Angeles",
+    "aka": "",
+    "league": "AL",
+    "end": "1961-10-01",
+    "name": "Wrigley Field",
+    "notes": "",
+    "state": "CA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "LOS03",
+  "fields": {
+    "start": "1962-04-10",
+    "city": "Los Angeles",
+    "aka": "Chavez Ravine",
+    "league": "NL",
+    "end": null,
+    "name": "Dodger Stadium",
+    "notes": "LAN:1962-prsnt; LAA:1962-9/2/65; CAL:9/2to9/22/65",
+    "state": "CA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "LOU01",
+  "fields": {
+    "start": "1876-04-25",
+    "city": "Louisville",
+    "aka": "",
+    "league": "NL",
+    "end": "1877-09-29",
+    "name": "Louisville Baseball Park",
+    "notes": "",
+    "state": "KY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "LOU02",
+  "fields": {
+    "start": "1882-05-05",
+    "city": "Louisville",
+    "aka": "",
+    "league": "",
+    "end": "1893-05-04",
+    "name": "Eclipse Park I",
+    "notes": "LS2:1882-91; LS3:1892-93",
+    "state": "KY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "LOU03",
+  "fields": {
+    "start": "1893-05-22",
+    "city": "Louisville",
+    "aka": "",
+    "league": "NL",
+    "end": "1899-10-07",
+    "name": "Eclipse Park II",
+    "notes": "",
+    "state": "KY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "LUD01",
+  "fields": {
+    "start": "1875-09-22",
+    "city": "Ludlow",
+    "aka": "",
+    "league": "NA",
+    "end": "1875-09-22",
+    "name": "Ludlow Baseball Park",
+    "notes": "PH2",
+    "state": "KY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MAS01",
+  "fields": {
+    "start": "1890-07-27",
+    "city": "Maspeth",
+    "aka": "",
+    "league": "AA",
+    "end": "1890-08-03",
+    "name": "Long Island Grounds",
+    "notes": "BR4: 2 games",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MIA01",
+  "fields": {
+    "start": "1993-04-05",
+    "city": "Miami",
+    "aka": "JoeRobbie; ProPlayer; Dolphin; LandShark",
+    "league": "NL",
+    "end": "2011-09-28",
+    "name": "Sun Life Stadium",
+    "notes": "",
+    "state": "FL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MIA02",
+  "fields": {
+    "start": "2012-04-04",
+    "city": "Miami",
+    "aka": "",
+    "league": "NL",
+    "end": null,
+    "name": "Marlins Park",
+    "notes": "",
+    "state": "FL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MID01",
+  "fields": {
+    "start": "1872-05-02",
+    "city": "Middletown",
+    "aka": "",
+    "league": "NA",
+    "end": "1872-07-04",
+    "name": "Mansfield Club Grounds",
+    "notes": "",
+    "state": "CT"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MIL01",
+  "fields": {
+    "start": "1878-05-14",
+    "city": "Milwaukee",
+    "aka": "",
+    "league": "NL",
+    "end": "1878-09-14",
+    "name": "Milwaukee Base-Ball Grounds",
+    "notes": "",
+    "state": "WI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MIL02",
+  "fields": {
+    "start": "1884-09-27",
+    "city": "Milwaukee",
+    "aka": "",
+    "league": "",
+    "end": "1885-09-25",
+    "name": "Wright Street Grounds",
+    "notes": "UA:1884; BFN:9/4/1885; PRO: 9/25/1885",
+    "state": "WI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MIL03",
+  "fields": {
+    "start": "1891-09-10",
+    "city": "Milwaukee",
+    "aka": "",
+    "league": "AA",
+    "end": "1891-10-04",
+    "name": "Athletic Park",
+    "notes": "",
+    "state": "WI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MIL04",
+  "fields": {
+    "start": "1901-05-03",
+    "city": "Milwaukee",
+    "aka": "",
+    "league": "AL",
+    "end": "1901-09-12",
+    "name": "Lloyd Street Grounds",
+    "notes": "",
+    "state": "WI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MIL05",
+  "fields": {
+    "start": "1953-04-14",
+    "city": "Milwaukee",
+    "aka": "",
+    "league": "",
+    "end": "2000-09-28",
+    "name": "County Stadium",
+    "notes": "MLN:1953-65; CHA:9gms(1968)&11gms(1969);MIL:70-00",
+    "state": "WI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MIL06",
+  "fields": {
+    "start": "2001-04-06",
+    "city": "Milwaukee",
+    "aka": "",
+    "league": "NL",
+    "end": null,
+    "name": "Miller Park",
+    "notes": "",
+    "state": "WI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MIN01",
+  "fields": {
+    "start": "1891-10-02",
+    "city": "Minneapolis",
+    "aka": "",
+    "league": "AA",
+    "end": "1891-10-02",
+    "name": "Athletic Park",
+    "notes": "ML2",
+    "state": "MN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MIN02",
+  "fields": {
+    "start": "1961-04-21",
+    "city": "Bloomington",
+    "aka": "",
+    "league": "AL",
+    "end": "1981-09-30",
+    "name": "Metropolitan Stadium",
+    "notes": "",
+    "state": "MN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MIN03",
+  "fields": {
+    "start": "1982-04-06",
+    "city": "Minneapolis",
+    "aka": "",
+    "league": "AL",
+    "end": "2009-10-06",
+    "name": "Hubert H. Humphrey Metrodome",
+    "notes": "",
+    "state": "MN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MIN04",
+  "fields": {
+    "start": "2010-04-12",
+    "city": "Minneapolis",
+    "aka": "",
+    "league": "AL",
+    "end": null,
+    "name": "Target Field",
+    "notes": "",
+    "state": "MN"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MNT01",
+  "fields": {
+    "start": "1996-08-16",
+    "city": "Monterrey",
+    "aka": "",
+    "league": "NL",
+    "end": "1999-04-04",
+    "name": "Estadio Monterrey",
+    "notes": "SDN:8/16&8/17&8/18/1996; 4/4/1999",
+    "state": "MX"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MON01",
+  "fields": {
+    "start": "1969-04-14",
+    "city": "Montreal",
+    "aka": "Jarry Park",
+    "league": "NL",
+    "end": "1976-09-29",
+    "name": "Parc Jarry",
+    "notes": "",
+    "state": "QUE"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "MON02",
+  "fields": {
+    "start": "1977-04-15",
+    "city": "Montreal",
+    "aka": "Olympic Stadium",
+    "league": "NL",
+    "end": "2004-09-29",
+    "name": "Stade Olympique",
+    "notes": "",
+    "state": "QUE"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NEW01",
+  "fields": {
+    "start": "1875-04-21",
+    "city": "New Haven",
+    "aka": "Brewster Park",
+    "league": "NA",
+    "end": "1875-10-28",
+    "name": "Howard Avenue Grounds",
+    "notes": "",
+    "state": "CT"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NEW02",
+  "fields": {
+    "start": "1875-04-21",
+    "city": "New Haven",
+    "aka": "",
+    "league": "NA",
+    "end": "1875-04-21",
+    "name": "Hamilton Park",
+    "notes": "",
+    "state": "CT"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NEW03",
+  "fields": {
+    "start": "1888-09-02",
+    "city": "Newburgh Township",
+    "aka": "Forest City Park",
+    "league": "AA",
+    "end": "1888-09-02",
+    "name": "Beyerle's Park",
+    "notes": "1 CLE game",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NWK01",
+  "fields": {
+    "start": "1904-07-17",
+    "city": "Newark",
+    "aka": "",
+    "league": "AL",
+    "end": "1904-07-17",
+    "name": "Wiedenmeyer's Park",
+    "notes": "NYA",
+    "state": "NJ"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC01",
+  "fields": {
+    "start": "1871-05-09",
+    "city": "Brooklyn",
+    "aka": "",
+    "league": "",
+    "end": "1877-09-21",
+    "name": "Union Grounds",
+    "notes": "NY2:1871-75;BR1:1872;BR2:1873-75;NY3:1876;HAR:1877",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC02",
+  "fields": {
+    "start": "1872-05-06",
+    "city": "Brooklyn",
+    "aka": "",
+    "league": "NA",
+    "end": "1872-10-09",
+    "name": "Capitoline Grounds",
+    "notes": "BR2",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC03",
+  "fields": {
+    "start": "1883-05-01",
+    "city": "New York",
+    "aka": "",
+    "league": "",
+    "end": "1888-10-13",
+    "name": "Polo Grounds I (Southeast Diamond)",
+    "notes": "NY1:1883-88; NY4:7/17/1884-1885",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC04",
+  "fields": {
+    "start": "1883-05-30",
+    "city": "New York",
+    "aka": "",
+    "league": "AA",
+    "end": "1883-10-25",
+    "name": "Polo Grounds II (Southwest Diamond)",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC05",
+  "fields": {
+    "start": "1884-05-05",
+    "city": "Brooklyn",
+    "aka": "",
+    "league": "AA",
+    "end": "1889-05-04",
+    "name": "Washington Park I",
+    "notes": "BR3",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC06",
+  "fields": {
+    "start": "1884-05-13",
+    "city": "New York",
+    "aka": "",
+    "league": "AA",
+    "end": "1884-08-23",
+    "name": "Metropolitan Park",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC07",
+  "fields": {
+    "start": "1886-05-02",
+    "city": "Queens",
+    "aka": "Ridgewood Park I",
+    "league": "AA",
+    "end": "1886-09-19",
+    "name": "Grauer's Ridgewood Park",
+    "notes": "BR3: Sundays (1886)",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC08",
+  "fields": {
+    "start": "1889-05-30",
+    "city": "Brooklyn",
+    "aka": "",
+    "league": "",
+    "end": "1890-10-03",
+    "name": "Washington Park II",
+    "notes": "BR3:1889; BRO:1890",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC09",
+  "fields": {
+    "start": "1889-07-08",
+    "city": "New York",
+    "aka": "",
+    "league": "NL",
+    "end": "1890-09-13",
+    "name": "Polo Grounds III",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC10",
+  "fields": {
+    "start": "1890-04-19",
+    "city": "New York",
+    "aka": "",
+    "league": "",
+    "end": "1911-04-13",
+    "name": "Polo Grounds IV",
+    "notes": "NYP:1890; NY1:1891-1911",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC11",
+  "fields": {
+    "start": "1890-04-28",
+    "city": "Brooklyn",
+    "aka": "",
+    "league": "",
+    "end": "1897-10-02",
+    "name": "Eastern Park",
+    "notes": "BRP:1890; BRO:1891-97",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC12",
+  "fields": {
+    "start": "1898-04-30",
+    "city": "Brooklyn",
+    "aka": "",
+    "league": "",
+    "end": "1912-11-01",
+    "name": "Washington Park III",
+    "notes": "BRO:1898-1912",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC13",
+  "fields": {
+    "start": "1903-04-30",
+    "city": "New York",
+    "aka": "",
+    "league": "",
+    "end": "1912-10-05",
+    "name": "Hilltop Park",
+    "notes": "NYA:1903-1912; NY1: 4/15 to 5/30/1911",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC14",
+  "fields": {
+    "start": "1911-06-28",
+    "city": "New York",
+    "aka": "",
+    "league": "",
+    "end": "1963-09-18",
+    "name": "Polo Grounds V",
+    "notes": "NY1:1911-1957;NYA:1913-1922;NYN:1962-63",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC15",
+  "fields": {
+    "start": "1913-04-09",
+    "city": "Brooklyn",
+    "aka": "",
+    "league": "NL",
+    "end": "1957-09-24",
+    "name": "Ebbets Field",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC16",
+  "fields": {
+    "start": "1923-04-18",
+    "city": "New York",
+    "aka": "",
+    "league": "AL",
+    "end": "2008-09-21",
+    "name": "Yankee Stadium I",
+    "notes": "no games 1974-75",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC17",
+  "fields": {
+    "start": "1964-04-17",
+    "city": "New York",
+    "aka": "William A. Shea Stadium",
+    "league": "NL",
+    "end": "2008-09-28",
+    "name": "Shea Stadium",
+    "notes": "NYN:1964-2008; NYA:1974-75",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC18",
+  "fields": {
+    "start": "1887-04-24",
+    "city": "Queens",
+    "aka": "Ridgewood Park II",
+    "league": "AA",
+    "end": "1890-06-08",
+    "name": "Wallace's Ridgewood Park",
+    "notes": "BR3: Sundays (1887-89); BR4: 1890",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC19",
+  "fields": {
+    "start": "1914-04-01",
+    "city": "Brooklyn",
+    "aka": "",
+    "league": "FL",
+    "end": "1915-11-01",
+    "name": "Washington Park IV",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC20",
+  "fields": {
+    "start": "2009-04-13",
+    "city": "New York",
+    "aka": "",
+    "league": "NL",
+    "end": null,
+    "name": "Citi Field",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "NYC21",
+  "fields": {
+    "start": "2009-04-16",
+    "city": "New York",
+    "aka": "",
+    "league": "AL",
+    "end": null,
+    "name": "Yankee Stadium II",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "OAK01",
+  "fields": {
+    "start": "1968-04-17",
+    "city": "Oakland",
+    "aka": "Network Associates Coliseum",
+    "league": "AL",
+    "end": null,
+    "name": "Oakland-Alameda County Coliseum",
+    "notes": "",
+    "state": "CA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PEN01",
+  "fields": {
+    "start": "1891-04-25",
+    "city": "Cincinnati",
+    "aka": "Pendleton Park",
+    "league": "AA",
+    "end": "1891-08-13",
+    "name": "East End Park",
+    "notes": "CN3",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI01",
+  "fields": {
+    "start": "1871-05-15",
+    "city": "Philadelphia",
+    "aka": "Athletics Park",
+    "league": "",
+    "end": "1890-10-11",
+    "name": "Jefferson Street Grounds",
+    "notes": "PH1:1871-75; PH2:1873-75; PHN:1876; PH4:1883-1890",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI02",
+  "fields": {
+    "start": "1875-04-21",
+    "city": "Philadelphia",
+    "aka": "",
+    "league": "NA",
+    "end": "1875-05-24",
+    "name": "Centennial Park",
+    "notes": "PH3",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI03",
+  "fields": {
+    "start": "1882-05-02",
+    "city": "Philadelphia",
+    "aka": "",
+    "league": "AA",
+    "end": "1882-09-21",
+    "name": "Oakdale Park",
+    "notes": "PH4",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI04",
+  "fields": {
+    "start": "1883-05-01",
+    "city": "Philadelphia",
+    "aka": "",
+    "league": "NL",
+    "end": "1886-10-09",
+    "name": "Recreation Park",
+    "notes": "",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI05",
+  "fields": {
+    "start": "1884-04-17",
+    "city": "Philadelphia",
+    "aka": "",
+    "league": "UA",
+    "end": "1884-08-07",
+    "name": "Keystone Park",
+    "notes": "",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI06",
+  "fields": {
+    "start": "1887-04-30",
+    "city": "Philadelphia",
+    "aka": "",
+    "league": "NL",
+    "end": "1894-08-06",
+    "name": "Huntingdon Grounds I",
+    "notes": "no games 8/7 to 8/17/1894; fire 8/6/1894",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI07",
+  "fields": {
+    "start": "1890-04-30",
+    "city": "Philadelphia",
+    "aka": "",
+    "league": "",
+    "end": "1891-10-05",
+    "name": "Forepaugh Park",
+    "notes": "PHP:1890; PH4:1891",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI08",
+  "fields": {
+    "start": "1894-08-11",
+    "city": "Philadelphia",
+    "aka": "",
+    "league": "NL",
+    "end": "1894-08-17",
+    "name": "University of Penn. Athletic Field",
+    "notes": "PHI:8/11&8/14 to 8/17/1894",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI09",
+  "fields": {
+    "start": "1895-05-02",
+    "city": "Philadelphia",
+    "aka": "",
+    "league": "NL",
+    "end": "1938-06-30",
+    "name": "Baker Bowl",
+    "notes": "PHI:not 8/20 to 9/10/1903",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI10",
+  "fields": {
+    "start": "1901-04-26",
+    "city": "Philadelphia",
+    "aka": "",
+    "league": "",
+    "end": "1908-10-03",
+    "name": "Columbia Park",
+    "notes": "PHA; PHI:8/20 to 9/10/1903",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI11",
+  "fields": {
+    "start": "1909-04-12",
+    "city": "Philadelphia",
+    "aka": "Connie Mack Stadium",
+    "league": "",
+    "end": "1970-10-01",
+    "name": "Shibe Park",
+    "notes": "PHA:1909-1954; PHI:5/16to5/28/1927;7/4/1938to1970",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI12",
+  "fields": {
+    "start": "1971-04-10",
+    "city": "Philadelphia",
+    "aka": "",
+    "league": "NL",
+    "end": "2003-09-28",
+    "name": "Veterans Stadium",
+    "notes": "",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI13",
+  "fields": {
+    "start": "2004-04-12",
+    "city": "Philadelphia",
+    "aka": "",
+    "league": "NL",
+    "end": null,
+    "name": "Citizens Bank Park",
+    "notes": "",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHI14",
+  "fields": {
+    "start": "1894-08-18",
+    "city": "Philadelphia",
+    "aka": "",
+    "league": "NL",
+    "end": "1894-09-06",
+    "name": "Huntingdon Grounds II",
+    "notes": "Temporary structure after fire on August 6",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PHO01",
+  "fields": {
+    "start": "1998-03-31",
+    "city": "Phoenix",
+    "aka": "Bank One Ballpark",
+    "league": "NL",
+    "end": null,
+    "name": "Chase Field",
+    "notes": "",
+    "state": "AZ"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PIT01",
+  "fields": {
+    "start": "1878-08-22",
+    "city": "Pittsburgh",
+    "aka": "",
+    "league": "NL",
+    "end": "1878-08-24",
+    "name": "Union Park",
+    "notes": "PRO: 3 games",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PIT02",
+  "fields": {
+    "start": "1882-05-09",
+    "city": "Pittsburgh",
+    "aka": "Lower Field",
+    "league": "",
+    "end": "1884-08-30",
+    "name": "Exposition Park I",
+    "notes": "PT1:1882-1883; PTU: 8/25 to 8/30/1884",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PIT03",
+  "fields": {
+    "start": "1883-05-01",
+    "city": "Pittsburgh",
+    "aka": "Upper Field",
+    "league": "AA",
+    "end": "1883-06-09",
+    "name": "Exposition Park II",
+    "notes": "PT1",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PIT04",
+  "fields": {
+    "start": "1884-05-01",
+    "city": "Pittsburgh",
+    "aka": "",
+    "league": "",
+    "end": "1890-09-30",
+    "name": "Recreation Park",
+    "notes": "PT1:1884-1886; PIT:1887-1890",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PIT05",
+  "fields": {
+    "start": "1890-04-19",
+    "city": "Pittsburgh",
+    "aka": "",
+    "league": "",
+    "end": "1915-10-02",
+    "name": "Exposition Park III",
+    "notes": "PTP:1890; PIT:1891-6/29/1909; PTF:1914-15",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PIT06",
+  "fields": {
+    "start": "1909-06-30",
+    "city": "Pittsburgh",
+    "aka": "",
+    "league": "NL",
+    "end": "1970-06-28",
+    "name": "Forbes Field",
+    "notes": "",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PIT07",
+  "fields": {
+    "start": "1970-07-16",
+    "city": "Pittsburgh",
+    "aka": "",
+    "league": "NL",
+    "end": "2000-10-01",
+    "name": "Three Rivers Stadium",
+    "notes": "",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PIT08",
+  "fields": {
+    "start": "2001-04-09",
+    "city": "Pittsburgh",
+    "aka": "",
+    "league": "NL",
+    "end": null,
+    "name": "PNC Park",
+    "notes": "",
+    "state": "PA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PRO01",
+  "fields": {
+    "start": "1875-06-12",
+    "city": "Providence",
+    "aka": "",
+    "league": "NA",
+    "end": "1875-06-22",
+    "name": "Adelaide Avenue Grounds",
+    "notes": "NH1: 6/12/1875; BS1: 6/22/1875",
+    "state": "RI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "PRO02",
+  "fields": {
+    "start": "1878-05-01",
+    "city": "Providence",
+    "aka": "",
+    "league": "NL",
+    "end": "1885-09-09",
+    "name": "Messer Street Grounds",
+    "notes": "",
+    "state": "RI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "RCK01",
+  "fields": {
+    "start": "1871-05-05",
+    "city": "Rockford",
+    "aka": "",
+    "league": "NA",
+    "end": "1871-09-26",
+    "name": "Agricultural Society Fair Grounds",
+    "notes": "",
+    "state": "IL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "RIC01",
+  "fields": {
+    "start": "1875-04-29",
+    "city": "Richmond",
+    "aka": "",
+    "league": "NA",
+    "end": "1875-05-01",
+    "name": "Richmond Fair Grounds",
+    "notes": "WS6: 2 games",
+    "state": "VA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "RIC02",
+  "fields": {
+    "start": "1884-08-05",
+    "city": "Richmond",
+    "aka": "",
+    "league": "AA",
+    "end": "1884-10-15",
+    "name": "Allens Pasture",
+    "notes": "",
+    "state": "VA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "ROC01",
+  "fields": {
+    "start": "1890-04-28",
+    "city": "Rochester",
+    "aka": "",
+    "league": "AA",
+    "end": "1890-10-06",
+    "name": "Culver Field I",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "ROC02",
+  "fields": {
+    "start": "1898-08-27",
+    "city": "Rochester",
+    "aka": "",
+    "league": "NL",
+    "end": "1898-08-29",
+    "name": "Culver Field II",
+    "notes": "CL4: 2 games",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "ROC03",
+  "fields": {
+    "start": "1898-08-28",
+    "city": "Rochester",
+    "aka": "",
+    "league": "NL",
+    "end": "1898-08-28",
+    "name": "Ontario Beach Grounds",
+    "notes": "CL4",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SAI01",
+  "fields": {
+    "start": "1886-04-22",
+    "city": "New York",
+    "aka": "",
+    "league": "",
+    "end": "1889-06-14",
+    "name": "St. George Cricket Grounds",
+    "notes": "NY4:1886-87; NY1:4/29 to 6/14/1889",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SAN01",
+  "fields": {
+    "start": "1969-04-08",
+    "city": "San Diego",
+    "aka": "San Diego/Jack Murphy Stadium",
+    "league": "NL",
+    "end": "2003-09-28",
+    "name": "Qualcomm Stadium",
+    "notes": "",
+    "state": "CA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SAN02",
+  "fields": {
+    "start": "2004-04-08",
+    "city": "San Diego",
+    "aka": "",
+    "league": "NL",
+    "end": null,
+    "name": "PETCO Park",
+    "notes": "",
+    "state": "CA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SEA01",
+  "fields": {
+    "start": "1969-04-11",
+    "city": "Seattle",
+    "aka": "",
+    "league": "AL",
+    "end": "1969-10-02",
+    "name": "Sick's Stadium",
+    "notes": "",
+    "state": "WA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SEA02",
+  "fields": {
+    "start": "1977-04-06",
+    "city": "Seattle",
+    "aka": "",
+    "league": "AL",
+    "end": "1999-06-27",
+    "name": "Kingdome",
+    "notes": "",
+    "state": "WA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SEA03",
+  "fields": {
+    "start": "1999-07-15",
+    "city": "Seattle",
+    "aka": "",
+    "league": "AL",
+    "end": null,
+    "name": "Safeco Field",
+    "notes": "",
+    "state": "WA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SFO01",
+  "fields": {
+    "start": "1958-04-15",
+    "city": "San Francisco",
+    "aka": "",
+    "league": "NL",
+    "end": "1959-09-20",
+    "name": "Seals Stadium",
+    "notes": "",
+    "state": "CA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SFO02",
+  "fields": {
+    "start": "1960-04-12",
+    "city": "San Francisco",
+    "aka": "3Com Park",
+    "league": "NL",
+    "end": "1999-09-30",
+    "name": "Candlestick Park",
+    "notes": "",
+    "state": "CA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SFO03",
+  "fields": {
+    "start": "2000-04-11",
+    "city": "San Francisco",
+    "aka": "Pacific Bell Park; SBC Park",
+    "league": "NL",
+    "end": null,
+    "name": "AT&T Park",
+    "notes": "",
+    "state": "CA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SJU01",
+  "fields": {
+    "start": "2001-04-01",
+    "city": "San Juan",
+    "aka": "",
+    "league": "NL",
+    "end": "2010-06-30",
+    "name": "Estadio Hiram Bithorn",
+    "notes": "TOR: 4/1/2001; MON:4/11-20,6/3-8,9/5-11/2003",
+    "state": "PR"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SPR01",
+  "fields": {
+    "start": "1872-07-23",
+    "city": "Springfield",
+    "aka": "Springfield Track",
+    "league": "NA",
+    "end": "1875-05-14",
+    "name": "Hampden Park Race Track",
+    "notes": "TRO:7/23/1872; BS1:7/16/1873,5/14/1875",
+    "state": "MA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "STL01",
+  "fields": {
+    "start": "1875-05-04",
+    "city": "St. Louis",
+    "aka": "",
+    "league": "NA",
+    "end": "1875-07-04",
+    "name": "Red Stockings Base Ball Park",
+    "notes": "SL1",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "STL02",
+  "fields": {
+    "start": "1875-05-06",
+    "city": "St. Louis",
+    "aka": "",
+    "league": "",
+    "end": "1877-10-06",
+    "name": "Grand Avenue Park",
+    "notes": "SL2:1875; SL3:1876-1877",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "STL03",
+  "fields": {
+    "start": "1882-05-02",
+    "city": "St. Louis",
+    "aka": "",
+    "league": "",
+    "end": "1892-10-13",
+    "name": "Sportsman's Park I",
+    "notes": "SL4:1882-1891; SLN:1892",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "STL04",
+  "fields": {
+    "start": "1884-04-20",
+    "city": "St. Louis",
+    "aka": "",
+    "league": "",
+    "end": "1886-09-23",
+    "name": "Union Grounds",
+    "notes": "SLU:1884; SL5:1885-86",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "STL05",
+  "fields": {
+    "start": "1893-04-27",
+    "city": "St. Louis",
+    "aka": "",
+    "league": "NL",
+    "end": "1920-06-06",
+    "name": "Robison Field",
+    "notes": "",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "STL06",
+  "fields": {
+    "start": "1902-04-23",
+    "city": "St. Louis",
+    "aka": "",
+    "league": "AL",
+    "end": "1908-10-06",
+    "name": "Sportsman's Park II",
+    "notes": "",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "STL07",
+  "fields": {
+    "start": "1909-04-14",
+    "city": "St. Louis",
+    "aka": "Busch Stadium I",
+    "league": "",
+    "end": "1966-05-08",
+    "name": "Sportsman's Park III",
+    "notes": "SLA:1909-1953; SLN:7/1/1920 to 5/8/1966",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "STL08",
+  "fields": {
+    "start": "1914-04-16",
+    "city": "St. Louis",
+    "aka": "Federal League Park",
+    "league": "FL",
+    "end": "1915-10-03",
+    "name": "Handlan's Park",
+    "notes": "",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "STL09",
+  "fields": {
+    "start": "1966-05-12",
+    "city": "St. Louis",
+    "aka": "",
+    "league": "NL",
+    "end": "2005-10-02",
+    "name": "Busch Stadium II",
+    "notes": "",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "STL10",
+  "fields": {
+    "start": "2006-04-10",
+    "city": "St. Louis",
+    "aka": "",
+    "league": "NL",
+    "end": null,
+    "name": "Busch Stadium III",
+    "notes": "",
+    "state": "MO"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "STP01",
+  "fields": {
+    "start": "1998-03-31",
+    "city": "St. Petersburg",
+    "aka": "",
+    "league": "AL",
+    "end": null,
+    "name": "Tropicana Field",
+    "notes": "",
+    "state": "FL"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SYD01",
+  "fields": {
+    "start": "2014-03-22",
+    "city": "Sydney",
+    "aka": "",
+    "league": "NL",
+    "end": "2014-03-23",
+    "name": "Sydney Cricket Ground",
+    "notes": "LAN&ARI:2014",
+    "state": "Australia"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SYR01",
+  "fields": {
+    "start": "1879-05-28",
+    "city": "Syracuse",
+    "aka": "Newell Park",
+    "league": "NL",
+    "end": "1879-09-10",
+    "name": "Star Park I",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SYR02",
+  "fields": {
+    "start": "1890-04-28",
+    "city": "Syracuse",
+    "aka": "",
+    "league": "AA",
+    "end": "1890-10-06",
+    "name": "Star Park II",
+    "notes": "",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "SYR03",
+  "fields": {
+    "start": "1890-08-03",
+    "city": "Syracuse",
+    "aka": "",
+    "league": "AA",
+    "end": "1890-08-03",
+    "name": "Iron Pier",
+    "notes": "Forfeit by LS2 to SR2; no game ever played here",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "THR01",
+  "fields": {
+    "start": "1890-05-18",
+    "city": "Three Rivers",
+    "aka": "",
+    "league": "AA",
+    "end": "1890-07-20",
+    "name": "Three Rivers Park",
+    "notes": "SR2: Sundays",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "TOK01",
+  "fields": {
+    "start": "2000-03-29",
+    "city": "Tokyo",
+    "aka": "",
+    "league": "",
+    "end": "2012-03-29",
+    "name": "Tokyo Dome",
+    "notes": "NYN&CHN:2000;NYA&TBA:2004;BOS&OAK:2008;SEA&OAK:2012",
+    "state": "JAP"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "TOL01",
+  "fields": {
+    "start": "1884-05-14",
+    "city": "Toledo",
+    "aka": "",
+    "league": "AA",
+    "end": "1884-09-23",
+    "name": "League Park",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "TOL02",
+  "fields": {
+    "start": "1884-09-13",
+    "city": "Toledo",
+    "aka": "",
+    "league": "AA",
+    "end": "1884-09-13",
+    "name": "Tri-State Fair Grounds",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "TOL03",
+  "fields": {
+    "start": "1890-05-01",
+    "city": "Toledo",
+    "aka": "",
+    "league": "AA",
+    "end": "1890-10-02",
+    "name": "Speranza Park",
+    "notes": "",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "TOL04",
+  "fields": {
+    "start": "1903-06-28",
+    "city": "Toledo",
+    "aka": "",
+    "league": "AL",
+    "end": "1903-08-16",
+    "name": "Armory Park",
+    "notes": "DET: 2 games",
+    "state": "OH"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "TOR01",
+  "fields": {
+    "start": "1977-04-07",
+    "city": "Toronto",
+    "aka": "",
+    "league": "AL",
+    "end": "1989-05-28",
+    "name": "Exhibition Stadium",
+    "notes": "first game: snow covering outfield",
+    "state": "ONT"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "TOR02",
+  "fields": {
+    "start": "1989-06-05",
+    "city": "Toronto",
+    "aka": "Skydome",
+    "league": "AL",
+    "end": null,
+    "name": "Rogers Centre",
+    "notes": "",
+    "state": "ONT"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "TRO01",
+  "fields": {
+    "start": "1871-05-09",
+    "city": "Troy",
+    "aka": "",
+    "league": "",
+    "end": "1881-09-30",
+    "name": "Haymakers' Grounds",
+    "notes": "TRO:1871-72; TRN: 1880-81",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "TRO02",
+  "fields": {
+    "start": "1879-05-28",
+    "city": "Troy",
+    "aka": "",
+    "league": "NL",
+    "end": "1882-05-30",
+    "name": "Putnam Grounds",
+    "notes": "TRN: 05/30/1882 (Gm 2)",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAR01",
+  "fields": {
+    "start": "1903-09-06",
+    "city": "Warwick",
+    "aka": "",
+    "league": "NL",
+    "end": "1903-09-06",
+    "name": "Rocky Point Park",
+    "notes": "BSN; outfield surrounded by ocean",
+    "state": "RI"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAS01",
+  "fields": {
+    "start": "1871-05-04",
+    "city": "Washington",
+    "aka": "",
+    "league": "NA",
+    "end": "1875-06-08",
+    "name": "Olympic Grounds",
+    "notes": "WS3:1871-1872; WS5:1873; WS6:1875",
+    "state": "DC"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAS02",
+  "fields": {
+    "start": "1872-04-20",
+    "city": "Washington",
+    "aka": "",
+    "league": "NA",
+    "end": "1872-05-25",
+    "name": "National Grounds",
+    "notes": "WS4",
+    "state": "DC"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAS03",
+  "fields": {
+    "start": "1884-04-18",
+    "city": "Washington",
+    "aka": "",
+    "league": "UA",
+    "end": "1884-09-25",
+    "name": "Capitol Grounds",
+    "notes": "",
+    "state": "DC"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAS04",
+  "fields": {
+    "start": "1884-05-01",
+    "city": "Washington",
+    "aka": "",
+    "league": "AA",
+    "end": "1884-08-05",
+    "name": "Athletic Park",
+    "notes": "",
+    "state": "DC"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAS05",
+  "fields": {
+    "start": "1886-04-29",
+    "city": "Washington",
+    "aka": "",
+    "league": "NL",
+    "end": "1889-09-21",
+    "name": "Swampoodle Grounds",
+    "notes": "",
+    "state": "DC"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAS06",
+  "fields": {
+    "start": "1891-04-13",
+    "city": "Washington",
+    "aka": "",
+    "league": "",
+    "end": "1899-10-14",
+    "name": "Boundary Field",
+    "notes": "WS9:1891; WSN: 1892-1899",
+    "state": "DC"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAS07",
+  "fields": {
+    "start": "1901-04-29",
+    "city": "Washington",
+    "aka": "",
+    "league": "AL",
+    "end": "1903-09-29",
+    "name": "American League Park I",
+    "notes": "first PA announcer (1902)",
+    "state": "DC"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAS08",
+  "fields": {
+    "start": "1904-04-14",
+    "city": "Washington",
+    "aka": "",
+    "league": "AL",
+    "end": "1910-10-06",
+    "name": "American League Park II",
+    "notes": "",
+    "state": "DC"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAS09",
+  "fields": {
+    "start": "1911-04-12",
+    "city": "Washington",
+    "aka": "",
+    "league": "AL",
+    "end": "1961-09-21",
+    "name": "Griffith Stadium",
+    "notes": "WS1:1911-60; WS2:1961",
+    "state": "DC"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAS10",
+  "fields": {
+    "start": "1962-04-09",
+    "city": "Washington",
+    "aka": "D.C. Stadium",
+    "league": "",
+    "end": "2007-09-23",
+    "name": "Robert F. Kennedy Stadium",
+    "notes": "AL:1962-71; NL:2005-07",
+    "state": "DC"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAS11",
+  "fields": {
+    "start": "2008-03-30",
+    "city": "Washington",
+    "aka": "",
+    "league": "NL",
+    "end": null,
+    "name": "Nationals Park",
+    "notes": "",
+    "state": "DC"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAT01",
+  "fields": {
+    "start": "1882-05-20",
+    "city": "Watervliet",
+    "aka": "",
+    "league": "NL",
+    "end": "1882-08-26",
+    "name": "Troy Ball Club Grounds",
+    "notes": "TRN",
+    "state": "NY"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WAV01",
+  "fields": {
+    "start": "1873-04-28",
+    "city": "Waverly",
+    "aka": "",
+    "league": "NA",
+    "end": "1873-07-23",
+    "name": "Waverly Fairgrounds",
+    "notes": "ELI",
+    "state": "NJ"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WEE01",
+  "fields": {
+    "start": "1887-09-11",
+    "city": "Weehawken",
+    "aka": "",
+    "league": "AA",
+    "end": "1887-09-11",
+    "name": "Monitor Grounds",
+    "notes": "NY4",
+    "state": "NJ"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WHE01",
+  "fields": {
+    "start": "1890-09-22",
+    "city": "Wheeling",
+    "aka": "",
+    "league": "NL",
+    "end": "1890-09-22",
+    "name": "Island Grounds",
+    "notes": "PIT",
+    "state": "WV"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WIL01",
+  "fields": {
+    "start": "1884-09-02",
+    "city": "Wilmington",
+    "aka": "",
+    "league": "UA",
+    "end": "1884-09-15",
+    "name": "Union Street Park",
+    "notes": "9/15 forfeit",
+    "state": "DE"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WNY01",
+  "fields": {
+    "start": "1898-09-11",
+    "city": "West New York",
+    "aka": "",
+    "league": "NL",
+    "end": "1899-09-17",
+    "name": "West New York Field Club Grounds",
+    "notes": "BRO:9/18&10/2/1898; NY1:9/11/98, 6/4&7/16&8/13&9/17/99",
+    "state": "NJ"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WOR01",
+  "fields": {
+    "start": "1880-05-01",
+    "city": "Worcester",
+    "aka": "",
+    "league": "NL",
+    "end": "1882-09-29",
+    "name": "Agricultural County Fair Grounds I",
+    "notes": "",
+    "state": "MA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WOR02",
+  "fields": {
+    "start": "1887-08-17",
+    "city": "Worcester",
+    "aka": "",
+    "league": "NL",
+    "end": "1887-08-17",
+    "name": "Agricultural County Fair Grounds II",
+    "notes": "1 BSN game",
+    "state": "MA"
+  },
+  "model": "djangosheet.park"
+},
+{
+  "pk": "WOR03",
+  "fields": {
+    "start": "1874-10-30",
+    "city": "Worcester",
+    "aka": "",
+    "league": "NA",
+    "end": "1874-10-30",
+    "name": "Worcester Driving Park Grounds",
+    "notes": "1 BS1 game",
+    "state": "MA"
+  },
+  "model": "djangosheet.park"
+}
+]

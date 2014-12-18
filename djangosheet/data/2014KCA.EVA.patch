@@ -1,0 +1,11 @@
+--- ../../../../Downloads/2014eve/2014KCA.EVA	2014-11-17 08:44:34.000000000 -0800
++++ 2014KCA.EVA	2014-12-17 17:35:48.000000000 -0800
+@@ -11818,7 +11818,7 @@
+ play,1,0,eatoa002,12,CBCX,43/G
+ play,1,0,ramia003,00,X,8/L
+ play,1,0,abrej003,32,BBFBCB,W
+-play,1,0,gillc001,12,C*BF*B,OA/MREV.1X2(26)
++play,1,0,gillc001,12,C*BF*B,OA/REV.1X2(26)
+ com,"replay,1,gillc001,CHA,nelsj901,KAN06,,Y,M,KCA,A"
+ com,"$when Jose Abreu was called safe at 2B, Royals manager"
+ com,"Ned Yost challenged the ruling; the call was overturned"

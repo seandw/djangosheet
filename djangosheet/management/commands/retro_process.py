@@ -22,4 +22,4 @@ class Command(LabelCommand):
         self.stdout.write('Processing events for {0}...'.format(year))
         returncode = subprocess.Popen(CMD.format(year, mask), shell=True).wait()
         if returncode != 0:
-            raise CommandError('Event files for {0} has errors, make sure they are patched')
+            raise CommandError('Event files for {0} has errors, make sure they are patched'.format(year))

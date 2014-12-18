@@ -1,0 +1,20 @@
+--- ../../../../Downloads/2014eve/2014TOR.EVA	2014-11-25 07:41:16.000000000 -0800
++++ 2014TOR.EVA	2014-12-17 17:39:44.000000000 -0800
+@@ -2282,7 +2282,7 @@
+ play,5,0,pujoa001,21,BBFX,2/P2F
+ play,5,0,ibanr001,32,BSFBFBFB,W
+ play,5,0,kendh001,01,CX,S48/G.1-3
+-play,5,0,stewi001,02,CSB,OA/MREV.3XH(2)
++play,5,0,stewi001,02,CSB,OA/REV.3XH(2)
+ com,"replay,5,stewi001,ANA,vanol901,TOR02,,Y,M,TOR,A"
+ com,"$the pitch was very high and struck the backstop;"
+ com,"the ball caromed back to catcher Dioner Navarro"
+@@ -7153,7 +7153,7 @@
+ com,"swing; 1B umpire Phil Cuzzi ruled that Tolleson did not"
+ com,"swing, therefore he was sent to 1B; Brewers manager Ron"
+ com,"Roenicke talked to Cuzzi and was ejected by Cuzzi"
+-play,8,1,kawam001,12,.CS*B*B,OA/MREV.1X2(26)
++play,8,1,kawam001,12,.CS*B*B,OA/REV.1X2(26)
+ com,"replay,8,kawam001,TOR,gibsg901,TOR02,,Y,M,MIL,A"
+ com,"ej,gibbj001,M,gibsg901,Replay ruling"
+ com,"$when Steve Tolleson was called safe at 2B, Brewers"
