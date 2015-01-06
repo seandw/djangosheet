@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='djangosheet',
-    version='0.1dev10',
+    version='0.1.dev10',
     packages=['djangosheet'],
     include_package_data=True,
     license='MIT',
