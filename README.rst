@@ -7,16 +7,21 @@ generated with the chadwick tool suite. It also provides management
 tools to download (and in some cases, patch), process, and load data
 into the database associated with the app.
 
-djangosheet has been developed using Python 3.4.2, with Django 1.7.2
-and the chadwick tool suite 0.6.4. Your mileage with the management
-tools may vary if you are using an older version of the chadwick tool
-suite.
+djangosheet has been developed using Python 3.4.2, with Django 1.7 and
+the chadwick tool suite 0.6.4. Your mileage with the management tools
+may vary if you are using an older version of the chadwick tool suite.
 
 Quick start
 -----------
 
-Add the app to your settings, migrate the models, load the park and
-team fixtures, and load to your heart's content.
+1. Download, install this package and the `chadwick tool suite`_.
+2. Add ``djangosheet`` to your ``INSTALLED_APPS`` in ``settings.py``.
+3. ``python manage.py migrate djangosheet``
+4. ``python manage.py loaddata parks teams``
+5. ``python manage.py retro_all <year> <year> ...``
+6. Play ball!
+
+.. _chadwick tool suite: http://chadwick.sourceforge.net/
 
 Todo
 ----
