@@ -7,7 +7,7 @@ generated with the chadwick tool suite. It also provides management
 tools to download (and in some cases, patch), process, and load data
 into the database associated with the app.
 
-djangosheet has been developed using Python 3.4.2, with Django 1.7 and
+djangosheet has been developed using Python 3.4, with Django 1.7+ and
 the chadwick tool suite 0.6.4. Your mileage with the management tools
 may vary if you are using an older version of the chadwick tool suite.
 
