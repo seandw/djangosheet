@@ -101,7 +101,7 @@ class PlayerTeam(models.Model):
     )
 
     player = models.ForeignKey(Player)
-    year = models.IntegerField(max_length=4)
+    year = models.IntegerField()
     team = models.ForeignKey(Team)
     position = models.CharField(max_length=2, choices=POSITIONS)
     batting_hand = models.CharField(max_length=1, choices=BATTING_HANDEDNESS)
